@@ -1,7 +1,11 @@
-The simplest solution is to completely disable security - change true to false in /var/lib/jenkins/config.xml file.
+ - The simplest solution is to completely disable security - change true to false in config file:
+ 
+sudo nano /var/lib/jenkins/config.xml
 
 <useSecurity>false</useSecurity>
-Then just restart Jenkins, by
 
+ - Then just restart Jenkins, by
+ 
 sudo service jenkins restart
-And then go to admin panel and set everything once again.
+
+ - And then go to admin panel and set everything once again.
