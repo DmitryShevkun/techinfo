@@ -1,6 +1,6 @@
 The simplest solution is to completely disable security - change true to false in /var/lib/jenkins/config.xml file.
 
-<useSecurity>true</useSecurity>
+<useSecurity>false</useSecurity>
 Then just restart Jenkins, by
 
 sudo service jenkins restart
