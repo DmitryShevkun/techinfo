@@ -3,3 +3,4 @@ Docker - src
 хаб - hub.docker.com
 команды - https://habr.com/ru/company/flant/blog/336654/
 setup Docker on ECS - docs.aws.amazon.com/AmazonECS/latest/developerguide/docker-basics.html#install_docker
+не Docker-in-Docker - https://habr.com/ru/company/southbridge/blog/436126/
