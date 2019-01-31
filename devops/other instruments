@@ -1,5 +1,26 @@
 другие инструменты
+ -
+Оркестраторы:
+ -
+ - Kubernetes
+ - https://kubernetes.io/
+ - local k8s - minikube( https://kubernetes.io/docs/setup/minikube/ )
+ - https://habr.com/ru/company/piter/blog/433192/
+ -
+ - Nomad
+ - https://habr.com/ru/post/435132/
+ -
+ - Docker Swarm
+ -
+ Системы развёртывания:
+ -
+ - Terraform
+ - terratest - https://github.com/gruntwork-io/terratest
+ -
+ 
 грюнт - https://gruntwork.io/
-terratest - https://github.com/gruntwork-io/terratest
-nomad - https://habr.com/ru/post/435132/
-не Docker-in-Docker - https://habr.com/ru/company/southbridge/blog/436126/
+
+прочее - антиресное
+-
+конфигурирование WEB
+https://habr.com/ru/post/434010/
