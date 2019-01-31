@@ -9,3 +9,9 @@
 Системы развёртывания:
  -
  - Terraform
+ -
+CD/CI
+ -
+ - Jenkins
+ -
+ - Grunt
