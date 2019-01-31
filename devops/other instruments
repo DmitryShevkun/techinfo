@@ -1,20 +1,2 @@
-Оркестраторы:
- -
- - Kubernetes
- -
- - Nomad
- -
- - Docker Swarm
- -
- Системы развёртывания:
- -
- - Terraform
- - terratest - https://github.com/gruntwork-io/terratest
- -
- 
-грюнт - https://gruntwork.io/
 
-прочее - антиресное
--
-конфигурирование WEB
 https://habr.com/ru/post/434010/
