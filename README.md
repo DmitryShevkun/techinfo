@@ -1,17 +1,22 @@
 Оркестраторы:
  -
- - Kubernetes
+ - Kubernetes(github.com/DmitryShevkun/techinfo/tree/master/K8s)
  -
- - Nomad
+ - Nomad(github.com/DmitryShevkun/techinfo/tree/master/Nomad)
  -
  - Docker Swarm
- -
 Системы развёртывания:
  -
- - Terraform
+ - Terraform(github.com/DmitryShevkun/techinfo/tree/master/Terraform)
  -
-CD/CI
+CI
  -
- - Jenkins
+ - Jenkins(github.com/DmitryShevkun/techinfo/tree/master/Jenkins)
  -
- - Grunt
+ - Grunt(github.com/DmitryShevkun/techinfo/tree/master/Grunt)
+ -
+CD
+-
+- Angular(github.com/DmitryShevkun/techinfo/tree/master/Angular)
+-
+- AngularJS(github.com/DmitryShevkun/techinfo/tree/master/AngularJS)
