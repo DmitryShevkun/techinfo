@@ -5,6 +5,7 @@
  - Nomad(https://github.com/DmitryShevkun/techinfo/tree/master/Nomad)
  -
  - Docker Swarm
+ -
 Системы развёртывания:
  -
  - Terraform(https://github.com/DmitryShevkun/techinfo/tree/master/Terraform)
