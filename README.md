@@ -1,6 +1,6 @@
 Оркестраторы:
  -
- - Kubernetes(github.com/DmitryShevkun/techinfo/tree/master/K8s)
+ - Kubernetes(https://github.com/DmitryShevkun/techinfo/tree/master/K8s)
  -
  - Nomad(github.com/DmitryShevkun/techinfo/tree/master/Nomad)
  -
