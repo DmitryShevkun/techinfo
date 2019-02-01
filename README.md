@@ -10,14 +10,14 @@
  -
  - Terraform(https://github.com/DmitryShevkun/techinfo/tree/master/Terraform)
  -
-CI
+CI/CD
  -
  - Jenkins(https://github.com/DmitryShevkun/techinfo/tree/master/Jenkins)
  -
  - Grunt(https://github.com/DmitryShevkun/techinfo/tree/master/Grunt)
  -
-CD
--
-- Angular(https://github.com/DmitryShevkun/techinfo/tree/master/Angular)
--
-- AngularJS(https://github.com/DmitryShevkun/techinfo/tree/master/AngularJS)
+Frameworks
+ -
+ - Angular(https://github.com/DmitryShevkun/techinfo/tree/master/Angular)
+ -
+ - AngularJS(https://github.com/DmitryShevkun/techinfo/tree/master/AngularJS)
