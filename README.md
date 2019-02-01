@@ -10,6 +10,8 @@
  -
  - Terraform(https://github.com/DmitryShevkun/techinfo/tree/master/Terraform)
  -
+ - Ansible(https://github.com/DmitryShevkun/techinfo/tree/master/Ansible)
+ -
 CI/CD
  -
  - Jenkins(https://github.com/DmitryShevkun/techinfo/tree/master/Jenkins)
