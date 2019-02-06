@@ -4,7 +4,8 @@ jenkins.io
 -
 Setup Jenkins on aws - d1.awsstatic.com/Projects/P5505030/aws-project_Jenkins-build-server.pdf
                        github.com/DmitryShevkun/techinfo/blob/master/Jenkins/setup%20on%20AMI%20linux
-Slack integration - https://mifort.slack.com/services/BFSD2NJC8?added=1
+Slack integration -    https://mifort.slack.com/services/BFSD2NJC8?added=1
 пример автоматизации - https://habr.com/ru/company/yamoney/blog/328092/
-declarative-linter - https://jenkins.io/doc/book/pipeline/development/
-                     https://atom.io/packages/linter-jenkins
+declarative-linter -   https://jenkins.io/doc/book/pipeline/development/
+                       https://atom.io/packages/linter-jenkins
+code reviewer -        https://plugins.jenkins.io/sonar
