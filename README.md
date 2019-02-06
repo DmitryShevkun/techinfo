@@ -20,6 +20,8 @@ CI/CD
  -
  - Grunt(https://github.com/DmitryShevkun/techinfo/tree/master/Grunt)
  -
+ - Travis-CI(https://github.com/DmitryShevkun/techinfo/tree/master/Travis-CI)
+ -
 Frameworks
  -
  - Angular(https://github.com/DmitryShevkun/techinfo/tree/master/Angular)
