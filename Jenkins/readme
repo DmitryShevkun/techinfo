@@ -9,3 +9,4 @@ Slack integration -    https://mifort.slack.com/services/BFSD2NJC8?added=1
 declarative-linter -   https://jenkins.io/doc/book/pipeline/development/
                        https://atom.io/packages/linter-jenkins
 code reviewer -        https://plugins.jenkins.io/sonar
+                       https://plugins.jenkins.io/findbugs
