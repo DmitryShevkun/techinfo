@@ -16,7 +16,7 @@ CI/CD
  -
  - Jenkins(https://github.com/DmitryShevkun/techinfo/tree/master/Jenkins)
  -
- - Teamcity(https://www.jetbrains.com/teamcity/)
+ - Teamcity(https://github.com/DmitryShevkun/techinfo/tree/master/Teamcity)
  -
  - Grunt(https://github.com/DmitryShevkun/techinfo/tree/master/Grunt)
  -
