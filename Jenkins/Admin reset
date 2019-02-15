@@ -1,4 +1,4 @@
- - Отключаем security:
+Отключаем security:
  - открываем файл
  
 sudo nano /var/lib/jenkins/config.xml
