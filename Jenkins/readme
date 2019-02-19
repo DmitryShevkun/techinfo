@@ -11,3 +11,4 @@ declarative-linter -   https://jenkins.io/doc/book/pipeline/development/
 code reviewer -        https://plugins.jenkins.io/sonar
                        https://plugins.jenkins.io/findbugs
 Ownership Plugin -     https://wiki.jenkins.io/display/JENKINS/Ownership+Plugin
+iOS Slave setup -      https://support.cloudbees.com/hc/en-us/articles/222978868-How-to-Connect-to-Remote-SSH-Agents-
