@@ -1,0 +1,6 @@
+Создать
+CREATE USER 'user'@'localhost' IDENTIFIED BY 'password';
+Изменить
+ALTER USER 'user'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
+Дает доступ к рессурсам *.*
+GRANT ALL PRIVILEGES ON *.* TO 'user'@'localhost' WITH GRANT OPTION;
