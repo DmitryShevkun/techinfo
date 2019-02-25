@@ -8,13 +8,11 @@ bind-address=127.0.0.1
 bind-address=0.0.0.0
 - что даст доступ со всех адресов
 -
-2. Дать права юзеру на удаленное подключение
-GRANT ALL PRIVILEGES
-ON *.*
-TO 'юзер'@'адрес'
-IDENTIFIED BY 'пароль'
-WITH GRANT OPTION;
-Этот скрипт дает полный доступ ко всему, можно ограничить PRIVILEGES или доступные объекты дб *.*
+2. Создать учетную запись с % для этого юзверя.
+CREATE USER 'monty'@'localhost' IDENTIFIED BY 'some_pass';
+GRANT ALL PRIVILEGES ON *.* TO 'monty'@'localhost' WITH GRANT OPTION;
+CREATE USER 'monty'@'%' IDENTIFIED BY 'some_pass';
+GRANT ALL PRIVILEGES ON *.* TO 'monty'@'%' WITH GRANT OPTION;
 -
 Посмотреть права - SHOW GRANTS FOR user@localhost;
 Посмотреть юзеров - SELECT User FROM mysql.user;
