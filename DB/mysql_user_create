@@ -1,3 +1,5 @@
+mysql -u root -p
+-
 Создать
 CREATE USER 'user'@'localhost' IDENTIFIED BY 'password';
 Изменить
