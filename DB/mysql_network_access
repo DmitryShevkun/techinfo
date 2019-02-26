@@ -13,6 +13,7 @@ CREATE USER 'user1'@'localhost' IDENTIFIED BY '497832sd';
 GRANT ALL PRIVILEGES ON *.* TO 'user1'@'localhost' WITH GRANT OPTION;
 CREATE USER 'user1'@'%' IDENTIFIED BY '497832sd';
 GRANT ALL PRIVILEGES ON *.* TO 'user1'@'%' WITH GRANT OPTION;
+FLUSH PRIVILEGES;
 -
 Посмотреть права - SHOW GRANTS FOR user@localhost;
 Посмотреть юзеров - SELECT User FROM mysql.user;
