@@ -9,10 +9,10 @@ bind-address=0.0.0.0
 - что даст доступ со всех адресов
 -
 2. Создать учетную запись с % для этого юзверя.
-CREATE USER 'monty'@'localhost' IDENTIFIED BY 'some_pass';
-GRANT ALL PRIVILEGES ON *.* TO 'monty'@'localhost' WITH GRANT OPTION;
-CREATE USER 'monty'@'%' IDENTIFIED BY 'some_pass';
-GRANT ALL PRIVILEGES ON *.* TO 'monty'@'%' WITH GRANT OPTION;
+CREATE USER 'user1'@'localhost' IDENTIFIED BY '497832sd';
+GRANT ALL PRIVILEGES ON *.* TO 'user1'@'localhost' WITH GRANT OPTION;
+CREATE USER 'user1'@'%' IDENTIFIED BY '497832sd';
+GRANT ALL PRIVILEGES ON *.* TO 'user1'@'%' WITH GRANT OPTION;
 -
 Посмотреть права - SHOW GRANTS FOR user@localhost;
 Посмотреть юзеров - SELECT User FROM mysql.user;
