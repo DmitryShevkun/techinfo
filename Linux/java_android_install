@@ -1,11 +1,17 @@
-echo $PATH - просмотр переменных
+просмотр переменных
+echo $PATH
 -
+Может понадобится для add-apt-repository в следующем шаге
 sudo apt install software-properties-common
 -
+Установка Java
 sudo add-apt-repository ppa:webupd8team/java
 sudo apt-get update
 sudo apt-get install oracle-java8-installer
 sudo apt-get install oracle-java8-set-default
 -
-sudo apt update && sudo apt install android-sdk
+Последнюю версию SDK можно посмотреть на https://developer.android.com/studio
+wget https://dl.google.com/android/repository/sdk-tools-linux-4333796.zip
+unzip sdk-tools-linux-4333796.zip
+export PATH=/tools:/tools/bin:$PATH
 -
