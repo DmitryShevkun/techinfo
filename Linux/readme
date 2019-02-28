@@ -1,1 +1,5 @@
 Linux
+-
+посмотреть версию системы
+uname -a
+cat /proc/version
