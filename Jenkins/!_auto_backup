@@ -1,0 +1,15 @@
+Разобратся и сделать такую фичю
+-
+I have a backup-ing job that runs every hour and gathers only configuration xmls that are needed to restore jobs.
+It is built periodically (every hour from 8:00AM till 6:00PM, Monday-Friday):
+0 8-18 * * 1-5
+
+It contains single "Execute shell" build step:
+
+export CUR_PATH=`pwd`
+cd $HUDSON_HOME
+find -maxdepth 3 -name config.xml|xargs tar cvf configs.tar
+mv configs.tar $CUR_PATH/configs.tar
+
+And  "Archive the artifacts" contains only "configs.tar", so we keep the history of jobs.
+You can even add some scp to push the tar forward to another server.
