@@ -3,3 +3,5 @@ AWS
 PowerShell - https://docs.aws.amazon.com/powershell/latest/reference/
 Regions - https://docs.aws.amazon.com/general/latest/gr/rande.html
 Domain Name Register - https://aws.amazon.com/getting-started/tutorials/get-a-domain/
+-
+Access EC2 Instance - https://stackoverflow.com/questions/6119774/ssh-to-aws-instance-without-key-pairs
