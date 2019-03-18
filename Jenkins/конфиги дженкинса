@@ -1,0 +1,4 @@
+конфиги дженкинса находятся в
+файлах
+/etc/sysconfig/jenkins
+/etc/init.d/jenkins
