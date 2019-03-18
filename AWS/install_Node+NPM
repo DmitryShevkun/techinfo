@@ -1,1 +1,5 @@
 https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/setting-up-node-on-ec2-instance.html
+-
+Installing NPM on AWS EC2
+https://stackoverflow.com/questions/8205369/installing-npm-on-aws-ec2
+-
