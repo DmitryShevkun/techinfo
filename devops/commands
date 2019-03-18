@@ -1,0 +1,2 @@
+фиксит нерабочий npm, в том числе когда он не фиксится по другому 
+curl -0 -L http://npmjs.org/install.sh | sudo sh
