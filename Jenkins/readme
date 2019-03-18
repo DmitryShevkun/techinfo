@@ -13,3 +13,7 @@ code reviewer -        https://plugins.jenkins.io/sonar
 Ownership Plugin -     https://wiki.jenkins.io/display/JENKINS/Ownership+Plugin
 iOS Slave setup -      https://support.cloudbees.com/hc/en-us/articles/222978868-How-to-Connect-to-Remote-SSH-Agents-
 полезное -             https://avalon.land/blog/it/jenkins-docker-howto/
+-
+change the Jenkins service account
+https://community.talend.com/t5/Migration-Configuration-and/How-do-I-change-the-Jenkins-service-account-user/ta-p/45164
+-
