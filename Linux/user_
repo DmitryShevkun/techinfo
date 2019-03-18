@@ -12,3 +12,5 @@ cat /etc/group
 -
 запуск от имени
 sudo -u user_name команда
+-
+https://www.helicaltech.com/create-multiple-sudo-users-to-ec2-amazon-linux/
