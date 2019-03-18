@@ -4,3 +4,6 @@ Linux
 uname -a
 cat /proc/version
 -
+PATH variables
+https://stackoverflow.com/questions/14637979/how-to-permanently-set-path-on-linux-unix
+-
