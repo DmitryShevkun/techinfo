@@ -62,3 +62,6 @@ sudo hdparm —security-disable "" /dev/sda
 sudo ~/Desktop/OCZToolbox
 
 Обновление прошивки должно пройти успешно, а затем так же успешно должна будет пройти и загрузка компа с этим диском, и все должно без проблем работать. Работы — на 10-20 минут!
+-
+http://www.ihdd.ru/parolnaya-sistema-sovremennyh-nakopitelei-vt7.html
+https://forum.ixbt.com/topic.cgi?id=11:9622-59
