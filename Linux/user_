@@ -13,4 +13,10 @@ cat /etc/group
 запуск от имени
 sudo -u user_name команда
 -
+разрешить юзера без пароля
+sudo visudo
+user_name ALL=(ALL) NOPASSWD:ALL
+удалить пароль
+sudo passwd -d `whoami`
+-
 https://www.helicaltech.com/create-multiple-sudo-users-to-ec2-amazon-linux/
