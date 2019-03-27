@@ -15,7 +15,8 @@ sudo -u user_name команда
 -
 разрешить юзера без пароля
 sudo visudo
-user_name ALL=(ALL) NOPASSWD:ALL
+добавить в конце
+user_name ALL=(ALL)NOPASSWD:ALL
 удалить пароль
 sudo passwd -d `whoami`
 -
