@@ -9,9 +9,9 @@ bind-address=0.0.0.0
 - что даст доступ со всех адресов
 -
 2. Создать учетную запись с % для этого юзверя.
-CREATE USER 'user1'@'localhost' IDENTIFIED BY '497832sd';
+CREATE USER 'user1'@'localhost' IDENTIFIED BY '497832';
 GRANT ALL PRIVILEGES ON *.* TO 'user1'@'localhost' WITH GRANT OPTION;
-CREATE USER 'user1'@'%' IDENTIFIED BY '497832sd';
+CREATE USER 'user1'@'%' IDENTIFIED BY '497832';
 GRANT ALL PRIVILEGES ON *.* TO 'user1'@'%' WITH GRANT OPTION;
 FLUSH PRIVILEGES;
 -
