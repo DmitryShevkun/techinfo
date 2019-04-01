@@ -1,0 +1,26 @@
+Копируем публичный ключ или его содержание.
+vi .ssh/authorized_keys
+copy ssh pub key
+-
+Создаем юзера( пока с паролем )
+sudo adduser user_name
+pas 123
+usermod -aG sudo jenkins
+-
+Если мы парвильно создалю юзера то должна была создастся папка с его именем в /home
+переключаемся на нового юзера создаем .ssh папку и файлы и меняем на них права
+su user_name
+[newuser ~]$ mkdir .ssh
+[newuser ~]$ chmod 700 .ssh
+[newuser ~]$ touch .ssh/authorized_keys
+[newuser ~]$ chmod 600 .ssh/authorized_keys
+vi .ssh/authorized_keys
+add ssh pub key
+-
+Разрешаем юзеру вход без пароля( по ключу )
+sudo visudo
+add
+jenkins ALL=(ALL)NOPASSWD:ALL
+-
+Удаляем пароль
+sudo passwd -d `whoami`
