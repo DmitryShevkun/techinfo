@@ -3,13 +3,13 @@ vi .ssh/authorized_keys
 copy ssh pub key
 -
 Создаем юзера( пока с паролем )
-sudo adduser user_name
+sudo adduser jenkins
 pas 123
 usermod -aG sudo jenkins
 -
 Если мы парвильно создалю юзера то должна была создастся папка с его именем в /home
 переключаемся на нового юзера создаем .ssh папку и файлы и меняем на них права
-su user_name
+su jenkins
 [newuser ~]$ mkdir .ssh
 [newuser ~]$ chmod 700 .ssh
 [newuser ~]$ touch .ssh/authorized_keys
