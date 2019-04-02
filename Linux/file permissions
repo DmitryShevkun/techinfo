@@ -1,0 +1,10 @@
+Посмотреть парва файла и владельца
+ls -l
+-
+ПОменять владельца
+chown
+-
+Поменять парва
+chmod
+-
+https://www.hostinger.ru/rukovodstva/kak-izmenit-prava-dostupa-v-linux
