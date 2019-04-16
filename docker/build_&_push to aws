@@ -1,15 +1,15 @@
 Заходи в папку содержащую нужный докерфайл что-бы обращатся к нему просто "." 
 либо указываем полный адрес для билда, например "dockerwork/project_name/."
--
+ -
 Команда -t IMG_NAME указывает имя будущего образа( не тэг )
  - docker build -t IMG_NAME .
--
+ -
 # Помечаем наш образ img_name для отправки в репозиторий HUB_USER_NAME/REPO_NAME
 #  - docker tag IMG_NAME HUB_USER_NAME/REPO_NAME
 # НО! При этой наш образ в репозиторие будет узакан как latest
--
+ -
 лучше пометить его именем HUB_USER_NAME/REPO_NAME:IMG_NAME
  - docker tag IMG_NAME HUB_USER_NAME/REPO_NAME:IMG_NAME
--
+ -
 Теперь можно запушить его в репозиторий
  - docker push HUB_USER_NAME/REPO_NAME:IMG_NAME
