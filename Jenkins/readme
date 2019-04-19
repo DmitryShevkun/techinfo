@@ -8,8 +8,7 @@ Slack integration -    https://mifort.slack.com/services/BFSD2NJC8?added=1
 пример автоматизации - https://habr.com/ru/company/yamoney/blog/328092/
 declarative-linter -   https://jenkins.io/doc/book/pipeline/development/
                        https://atom.io/packages/linter-jenkins
-code reviewer -        https://plugins.jenkins.io/sonar
-                       https://plugins.jenkins.io/findbugs
+code reviewer -        https://plugins.jenkins.io/findbugs
 Ownership Plugin -     https://wiki.jenkins.io/display/JENKINS/Ownership+Plugin
 iOS Slave setup -      https://support.cloudbees.com/hc/en-us/articles/222978868-How-to-Connect-to-Remote-SSH-Agents-
 полезное -             https://avalon.land/blog/it/jenkins-docker-howto/
@@ -29,3 +28,4 @@ https://wiki.jenkins.io/display/JENKINS/Role+Strategy+Plugin
 -
 SonarQube
 https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner+for+Jenkins
+https://plugins.jenkins.io/sonar
