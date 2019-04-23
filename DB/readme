@@ -4,6 +4,5 @@ DB
                   sudo yum install mysql57-server
 Установка MongoDB - https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/
 -
-install Postgress
-     sudo yum install postgresql postgresql-server postgresql-devel postgresql-contrib postgresql-docs
+install Postgress - https://github.com/snowplow/snowplow/wiki/Setting-up-PostgreSQL
 -
