@@ -1,7 +1,7 @@
 DB
 -
 Установка MySQL - https://www.digitalocean.com/community/tutorials/mysql-ubuntu-18-04-ru
-                  sudo yum install mysql57-server
+-
 Установка MongoDB - https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/
 -
 install Postgress - https://github.com/snowplow/snowplow/wiki/Setting-up-PostgreSQL
