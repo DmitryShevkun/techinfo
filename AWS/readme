@@ -7,3 +7,4 @@ Domain Name Register - https://aws.amazon.com/getting-started/tutorials/get-a-do
 Access EC2 Instance - https://stackoverflow.com/questions/6119774/ssh-to-aws-instance-without-key-pairs
 add user to access EC2 Inst - https://aws.amazon.com/premiumsupport/knowledge-center/new-user-accounts-linux-instance/
                               https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/managing-users.html
+setup SPA - https://gist.github.com/bradwestfall/b5b0e450015dbc9b4e56e5f398df48ff
