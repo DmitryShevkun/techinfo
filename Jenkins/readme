@@ -26,7 +26,8 @@ https://medium.com/@weblab_tech/how-to-publish-artifacts-in-jenkins-f021b17fde71
 Role Strategy Plugin
 https://wiki.jenkins.io/display/JENKINS/Role+Strategy+Plugin
 -
+Экспорт - импорт джобов
+https://stackoverflow.com/questions/8424228/export-import-jobs-in-jenkins
+-
 SonarQube
-https://www.alibabacloud.com/blog/easy-guide-to-install-sonarqube-on-ubuntu-16-04_593923
-https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner+for+Jenkins
 https://plugins.jenkins.io/sonar
