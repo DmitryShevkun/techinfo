@@ -4,6 +4,9 @@ Linux
 uname -a
 cat /proc/version
 -
+СКРИПТ
+chmod +x script.sh
+-
 PATH variables
 echo $PATH
 https://stackoverflow.com/questions/14637979/how-to-permanently-set-path-on-linux-unix
