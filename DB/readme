@@ -6,3 +6,4 @@ DB
 -
 install Postgress - https://github.com/snowplow/snowplow/wiki/Setting-up-PostgreSQL
 -
+Удаленное подключение MongoDB - https://ianlondon.github.io/blog/mongodb-auth/
