@@ -26,4 +26,4 @@ sudo systemctl reload nginx
 sudo certbot --nginx -d mifort.com -d www.mifort.com -d mifort.org -d www.mifort.org
 - добавляем джобу по обновлению сертификата в крон
 sudo crontab -e
-42 * */2 * * certbot renew --quiet --allow-subset-of-names
+44 * */2 * * certbot renew --quiet --allow-subset-of-names
