@@ -1,0 +1,29 @@
+На основании статьи
+https://www.digitalocean.com/community/tutorials/nginx-let-s-encrypt-ubuntu-18-04-ru
+И дополнительно
+https://community.letsencrypt.org/t/how-to-diagnostic-too-many-flags-setting-configurators-installers-authenticators-webroot-apache/18151
+https://certbot.eff.org/lets-encrypt/ubuntuxenial-other
+https://habr.com/ru/post/318952/
+-
+Всё делалось на nginx-е настроеном по отличной статье
+https://www.vultr.com/docs/setup-a-keystone-js-web-server-using-nginx-reverse-proxy-on-ubuntu-16-04
+-
+- если уже пытались что-то делать - то возможно стоит всё убрать:
+sudo apt-get purge letsencrypt
+sudo rm -rf /etc/letsencrypt/*
+- ставим certbot с плагином для nginx
+sudo add-apt-repository ppa:certbot/certbot
+sudo apt install python-certbot-nginx
+- заходим в
+/etc/nginx/sites-available/наш_конфиг
+- и добавляем нужные домены в строку server_name
+server_name mifort.com mifort.org www.mifort.com www.mifort.org;
+- можно проверить конфиг
+sudo nginx -t
+- рестарт что-бы подтянуть конфиг
+sudo systemctl reload nginx
+- установка сертификатов
+sudo certbot --nginx -d mifort.com -d www.mifort.com -d mifort.org -d www.mifort.org
+- добавляем джобу по обновлению сертификата в крон
+sudo crontab -e
+42 * */2 * * certbot renew --quiet --allow-subset-of-names
