@@ -13,6 +13,7 @@ sudo apt-get purge letsencrypt
 sudo rm -rf /etc/letsencrypt/*
 - ставим certbot с плагином для nginx
 sudo add-apt-repository ppa:certbot/certbot
+sudo apt-get update
 sudo apt install python-certbot-nginx
 - заходим в
 /etc/nginx/sites-available/наш_конфиг
