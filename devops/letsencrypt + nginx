@@ -36,3 +36,5 @@ sudo certbot --nginx -d mifort.com -d www.mifort.com -d mifort.org -d www.mifort
 - добавляем джобу по обновлению сертификата в крон
 sudo crontab -e
 44 * */2 * * certbot renew --quiet --allow-subset-of-names
+-
+*в одной из статей описывалось добавление дополнительных настроек в конфиг nginx или в отдельный acme файл и добавление ссылки на него опять-таки в конфиг.
