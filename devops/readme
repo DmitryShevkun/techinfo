@@ -36,3 +36,6 @@ https://help.github.com/en/articles/removing-sensitive-data-from-a-repository
 Keystone, Node, PM2, Nginx, Proxy Ubuntu
 https://www.vultr.com/docs/setup-a-keystone-js-web-server-using-nginx-reverse-proxy-on-ubuntu-16-04
 -
+Ещё статьи по letsencrypt
+https://serveradmin.ru/ustanovka-i-nastroyka-nginx-php-fpm-php7-1-na-centos-7/#_ssl_Lets_Encrypt
+-
