@@ -11,6 +11,7 @@ https://www.vultr.com/docs/setup-a-keystone-js-web-server-using-nginx-reverse-pr
 - если уже пытались что-то делать - то возможно стоит всё убрать:
 sudo apt-get purge letsencrypt
 sudo rm -rf /etc/letsencrypt/*
+sudo apt-get install letsencrypt
 
 - ставим certbot с плагином для nginx
 sudo add-apt-repository ppa:certbot/certbot
