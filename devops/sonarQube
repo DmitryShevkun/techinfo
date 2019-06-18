@@ -16,3 +16,94 @@ https://github.com/snowplow/snowplow/wiki/Setting-up-PostgreSQL
 5) Запустить.
 К сожалению, даже на собственном сайте он описан(был описан) непрямолинейно и неочевидно, а обилие выбора БД только добавляет путанницы.
 Так что лучше сначала найти и выписать для себя наборы команд отвечающие 5-и пунктам, а затем выполнить их на сервере.
+-
+!!! 7.7 - sonar version may be higher
+!!! 9.5 - psql version may be higher
+!!! nano is common text editor
+nano:
+ctrl + o = write
+ctrl + x = exit
+-
+sudo apt-get update
+-
+sudo apt install -y openjdk-8-jre-headless
+java -version
+-
+sudo apt-get install -y postgresql
+-
+sudo nano /etc/postgresql/9.5/main/pg_hba.conf
+sudo vim /etc/postgresql/9.5/main/pg_hba.conf
+----------------------------------------------------------------------
+# TYPE  DATABASE        USER            ADDRESS                 METHOD
+
+# "local" is for Unix domain socket connections only
+local   all             all                                     trust
+# IPv4 local connections:
+host    all             power_user      0.0.0.0/0               md5
+host    all             other_user      0.0.0.0/0               md5
+host    all             storageLoader   0.0.0.0/0               md5
+# IPv6 local connections:
+host    all             all             ::1/128                 md5
+----------------------------------------------------------------------
+-
+sudo nano /etc/postgresql/9.5/main/postgresql.conf
+sudo vim /etc/postgresql/9.5/main/postgresql.conf
+-
+Uncomment line ~49:
+#listen_addresses = 'localhost'          # what IP address(es) to listen on;
+listen_addresses='*'
+-
+And uncomment line 63:
+#port = 5432
+port = 5432
+-
+sudo service postgresql start
+-
+sudo su - postgres
+psql -U postgres
+-
+ALTER USER postgres WITH PASSWORD '$497832sd';
+-
+CREATE USER sonar NOSUPERUSER;
+ALTER USER sonar WITH PASSWORD 'sonar';
+CREATE DATABASE sonar WITH ENCODING 'UTF8';
+ALTER DATABASE sonar OWNER TO sonar;
+\q
+----------------------------------------------------------------------
+-
+wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-7.7.zip
+-
+sudo apt-get install unzip
+-
+sudo unzip sonarqube-7.7.zip -d /opt
+-
+cd /opt
+-
+sudo mv sonarqube-7.7 sonar
+-
+sudo nano /opt/sonar/conf/sonar.properties
+-
+#Uncomment and set
+sonar.jdbc.username=your_user
+sonar.jdbc.password=your_password
+-
+#Uncomment and set
+sonar.jdbc.url=jdbc:postgresql://localhost:5432/sonardb
+sonar.jdbc.url=jdbc:postgresql://localhost/sonarqube?currentSchema=my_schema
+-
+sudo groupadd sonar
+sudo useradd -c "user to run SonarQube" -d /opt/sonar -g sonar sonar
+sudo chown sonar:sonar /opt/sonar -R
+-
+sudo vim  /opt/sonar/bin/linux-x86-64/sonar.sh
+RUN_AS_USER=sonar
+-
+sudo sysctl -w vm.max_map_count=262144
+-or
+sudo nano /etc/sysctl.conf
+vm.max_map_count=262144
+sudo sysctl -p
+-
+sudo su sonar
+sh /opt/sonar/bin/linux-x86-64/sonar.sh console
+-
