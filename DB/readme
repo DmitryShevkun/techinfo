@@ -8,3 +8,6 @@ install Postgress - https://github.com/snowplow/snowplow/wiki/Setting-up-Postgre
 -
 Удаленное подключение MongoDB - https://ianlondon.github.io/blog/mongodb-auth/
 с ошибкой bind ip - 0.0.0.0 должен быть
+-
+Mongo Backup
+https://coderwall.com/p/hdmmnq/easy-automatic-nightly-backups-for-mongodb
