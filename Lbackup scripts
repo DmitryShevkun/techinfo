@@ -1,0 +1,10 @@
+http://qaru.site/questions/469668/bash-script-to-delete-all-but-n-files-when-sorted-alphabetically
+http://qaru.site/questions/13835/delete-all-but-the-most-recent-x-files-in-bash
+-
+MongoDB
+#!/bin/sh
+DIR=`date +%m%d%y`
+DEST=/db_backups/$DIR
+mkdir $DEST
+mongodump -d mifort-site-2 -o $DEST
+ls -F *.* | head -n -5 | xargs rm
