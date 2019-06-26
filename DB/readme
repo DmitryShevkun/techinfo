@@ -11,3 +11,5 @@ install Postgress - https://github.com/snowplow/snowplow/wiki/Setting-up-Postgre
 -
 Mongo Backup
 https://coderwall.com/p/hdmmnq/easy-automatic-nightly-backups-for-mongodb
+https://www.digitalocean.com/community/tutorials/how-to-set-up-scheduled-logical-mongodb-backups-to-digitalocean-spaces
+-
