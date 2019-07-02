@@ -1,0 +1,8 @@
+Daily
+#!/bin/sh
+DOW=$(date +"%a")
+DEST=/home/ubuntu/db_backups/$DOW
+mongodump -d mifort-site-2 -o $DEST
+
+sudo crontab -e
+45 1 * * * /home/ubuntu/db_backup.sh
