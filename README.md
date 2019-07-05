@@ -22,8 +22,6 @@ CI/CD
  -
  - Travis-CI(https://github.com/DmitryShevkun/techinfo/tree/master/Travis-CI)
  -
-Frameworks
+Web Servers
  -
- - Angular(https://github.com/DmitryShevkun/techinfo/tree/master/Angular)
- -
- - AngularJS(https://github.com/DmitryShevkun/techinfo/tree/master/AngularJS)
+ - Nginx(https://github.com/DmitryShevkun/techinfo/tree/master/nginx)
