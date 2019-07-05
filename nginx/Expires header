@@ -1,0 +1,19 @@
+https://veerasundar.com/blog/2014/09/setting-expires-header-for-assets-nginx/
+-
+Just add
+
+    location / {
+
+            ...
+            
+            if ($request_uri ~* ".(ico|css|js|gif|jpe?g|png)$") {
+                                        expires 30d;
+                                        access_log off;
+                                        add_header Pragma public;
+                                        add_header Cache-Control "public";
+                                        break;
+            }
+            
+            ...
+            
+     }
