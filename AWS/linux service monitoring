@@ -21,7 +21,7 @@ $ AWS Secret Access Key [None]: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY( put yo
 $ Default region name [None]: us-west-2( put your region )
 $ Default output format [None]: json
 -
-Now you can check the possiblity to send custom metric from cli to your CloudWatch
+Now you can check the possiblity to send custom metric from cli to your CloudWatch service
 It should be mentioned that he does not immediately process it, it may take about 15 minutes
 $ aws cloudwatch put-metric-data --metric-name NAME --dimensions Instance=i-0c51f9f1213e63159  --namespace "Custom" --value SOME_NUMERIC_VALUE
 Instance is your ec2 instance id. You can check it at ec2 pane. 
