@@ -40,8 +40,17 @@ then
 else
   aws cloudwatch put-metric-data --metric-name mongo-bool --dimensions Instance=i-04cc5eb47w76ef922  --namespace "Custom" --value 1
 fi
+---------------- or -------------------
+#!/bin/bash
+MY_DB=`systemctl is-active mongod`
+if [ $MY_DB == "active" ]
+then
+  aws cloudwatch put-metric-data --metric-name mongo-bool --dimensions Instance=i-04cc5eb47w76ef922  --namespace "Custom" --value 0
+else
+  aws cloudwatch put-metric-data --metric-name mongo-bool --dimensions Instance=i-04cc5eb47w76ef922  --namespace "Custom" --value 1
+fi
 -
-0 is ok, 1 is alarm
+return metric 0 is ok, 1 is alarm
 than add the script to a cron
 $ crontab -e
 - add, to execute every minute for example
