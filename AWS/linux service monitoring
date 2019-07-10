@@ -14,8 +14,7 @@ $ sudo yum install AWSCLI
 -
 3) Configure AWSCLI with user credantials from p.1)
 $ aws configure
-or edit config file with text editor
-like this:
+or edit config file with text editor, like this:
 $ AWS Access Key ID [None]: AKIAIOSFODNN7EXAMPLE( put your access key pair )
 $ AWS Secret Access Key [None]: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY( put your access key pair )
 $ Default region name [None]: us-west-2( put your region )
