@@ -42,7 +42,7 @@ fi
 0 is ok, 1 is alarm
 than add the script to a cron
 $ crontab -e
-- add / to execute every minute for example
+- add, to execute every minute for example
 $ */1 * * * * /home/user/script.sh
 -
 5) Go to your AWS CloudWatch tab and set alarm for newly appeared custom metric.
