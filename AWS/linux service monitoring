@@ -1,0 +1,47 @@
+https://aws.amazon.com/premiumsupport/knowledge-center/cloudwatch-custom-metrics/
+https://unix.stackexchange.com/questions/396630/the-proper-way-to-test-if-a-service-is-running-in-a-script
+-
+It's easyer way, using cron and AWSCLI.
+-
+1) Enter AWS IAM and create user with only CloudWatch rights.
+- Then go to Security Credantials tab of new user and create access key pair.
+-
+2) Enter an instance and install AWSCLI. It can be installed with various Pocket Managers and it could be enougth. 
+But Awazon recomends to do it with PIP( Pithon ) because of the last version.
+$ sudo apt-get install AWSCLI
+$ sudo rpm install AWSCLI
+$ sudo yum install AWSCLI
+-
+3) Configure AWSCLI with user credantials from p.1.
+$ aws configure
+- or edit config file with text editor.
+- like this:
+AWS Access Key ID [None]: AKIAIOSFODNN7EXAMPLE( put your access key pair )
+AWS Secret Access Key [None]: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY( put your access key pair )
+Default region name [None]: us-west-2( put your region )
+Default output format [None]: json
+-
+- now you can check the possiblity to send custom metric from cli to your CloudWatch
+aws cloudwatch put-metric-data --metric-name NAME --dimensions Instance=i-0c51f9f1213e63159  --namespace "Custom" --value SOME_NUMERIC_VALUE
+- Instance is your ec2 instance id. You can check it at ec2 pane. We of course should to know which instance or server.
+-
+4) Create bash script
+touch script.sh
+chmod +x script.sh
+nano script.sh
+-
+#!/bin/bash
+if (( $(ps -ef | grep -v grep | grep YOUR_SERVICE | wc -l) > 0 ))
+then
+  aws cloudwatch put-metric-data --metric-name mongo-bool --dimensions Instance=i-04cc5eb47w76ef922  --namespace "Custom" --value 0
+else
+  aws cloudwatch put-metric-data --metric-name mongo-bool --dimensions Instance=i-04cc5eb47w76ef922  --namespace "Custom" --value 1
+fi
+- 0 is ok, 1 is alarm.
+- than add script to a cron
+crontab -e
+- add / to execute every minute for example
+*/1 * * * * /home/user/script.sh
+-
+5) Go to your AWS CloudWatch tab and set alarm for newly appeared custom metric.
+It can be fully installed in Creating Alarm dialog with default SNS topic creation and email addres adding.
