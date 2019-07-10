@@ -29,6 +29,7 @@ Instance is your ec2 instance id. You can check it at ec2 pane. We of course sho
 $ touch script.sh
 $ chmod +x script.sh
 $ nano script.sh
+add next than tape ctrl+o to save and ctrl+x to exit
 -
 #!/bin/bash
 if (( $(ps -ef | grep -v grep | grep YOUR_SERVICE | wc -l) > 0 ))
