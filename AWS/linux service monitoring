@@ -7,7 +7,7 @@ It's easyer way, using cron and AWSCLI
 Then go to Security Credantials tab of new user and create access key pair
 -
 2) Enter an instance and install AWSCLI. It's possible with various Pocket Managers and it could be enougth.
-(But Awazon recomends to do it with PIP( Pithon ) because of the last version in PIP repo )
+(Awazon recomends to do it with PIP( Pithon ) because of the newest version in PIP repo )
 $ sudo apt-get install AWSCLI
 $ sudo rpm install AWSCLI
 $ sudo yum install AWSCLI
