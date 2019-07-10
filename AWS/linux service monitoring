@@ -23,15 +23,15 @@ $ Default output format [None]: json
 -
 Now you can check the possiblity to send custom metric from cli to your CloudWatch service
 It should be mentioned that he does not immediately process it, it may take about 15 minutes
-$ aws cloudwatch put-metric-data --metric-name NAME --dimensions Instance=i-0c51f9f1213e63159  --namespace "Custom" --value SOME_NUMERIC_VALUE
+$ aws cloudwatch put-metric-data --metric-name SOME_METRIC_NAME --dimensions Instance=i-0c51f9f1213e63159  --namespace "Custom" --value SOME_NUMERIC_VALUE
 Instance is your ec2 instance id. You can check it at ec2 pane. 
 This is optional, but we certainly need to know which instance or server is causing the alarm..
 -
-4) Create bash script
+4) Enter an instance( or server ) and create bash script
 $ touch script.sh
 $ chmod +x script.sh
 $ nano script.sh
-add next than tape ctrl+o to save and ctrl+x to exit
+add next than tape CTRL+O to save and CTRL+X to exit
 -
 #!/bin/bash
 if (( $(ps -ef | grep -v grep | grep YOUR_SERVICE | wc -l) > 0 ))
