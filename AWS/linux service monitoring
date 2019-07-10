@@ -12,7 +12,7 @@ $ sudo apt-get install AWSCLI
 $ sudo rpm install AWSCLI
 $ sudo yum install AWSCLI
 -
-3) Configure AWSCLI with user credantials from 1)
+3) Configure AWSCLI with user credantials from p.1)
 $ aws configure
 or edit config file with text editor
 like this:
