@@ -46,5 +46,5 @@ $ crontab -e
 $ */1 * * * * /home/user/script.sh
 -
 5) Go to your AWS CloudWatch tab and set alarm for newly appeared custom metric.
-It's possible fully installed in Creating Alarm dialog with default SNS topic creation and email addres adding.
+It can be fully installed in Creating Alarm dialog with default SNS topic creation and email addres adding.
 You need to verify an email addres adding and then verify of getting alarms on it.
