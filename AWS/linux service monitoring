@@ -13,6 +13,7 @@ $ sudo rpm install AWSCLI
 $ sudo yum install AWSCLI
 -
 3) Configure AWSCLI with user credantials from p.1)
+https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html
 $ aws configure
 or edit config file with text editor, like this:
 $ AWS Access Key ID [None]: AKIAIOSFODNN7EXAMPLE( put your access key pair )
