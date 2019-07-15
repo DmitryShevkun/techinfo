@@ -1,5 +1,7 @@
 https://aws.amazon.com/premiumsupport/knowledge-center/cloudwatch-custom-metrics/
+https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html
 https://unix.stackexchange.com/questions/396630/the-proper-way-to-test-if-a-service-is-running-in-a-script
+https://help.ubuntu.ru/wiki/cron
 -
 It's easyer way, using cron and AWSCLI
 -
