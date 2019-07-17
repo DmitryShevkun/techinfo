@@ -17,6 +17,7 @@
  - Puppet(https://github.com/puppetlabs/puppet)
  -
  - SaltStack(https://github.com/saltstack/salt)
+ -
 CI/CD
  -
  - Jenkins(https://github.com/DmitryShevkun/techinfo/tree/master/Jenkins)
