@@ -4,7 +4,7 @@
  -
  - Nomad(https://github.com/DmitryShevkun/techinfo/tree/master/Nomad)
  -
- - Docker Swarm
+ - DockerSwarm(https://github.com/docker/swarm)
  -
 Системы развёртывания:
  -
@@ -12,6 +12,11 @@
  -
  - Ansible(https://github.com/DmitryShevkun/techinfo/tree/master/Ansible)
  -
+ - Chef(https://github.com/chef/chef)
+ -
+ - Puppet(https://github.com/puppetlabs/puppet)
+ -
+ - SaltStack(https://github.com/saltstack/salt)
 CI/CD
  -
  - Jenkins(https://github.com/DmitryShevkun/techinfo/tree/master/Jenkins)
