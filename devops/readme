@@ -48,3 +48,6 @@ https://habr.com/ru/post/270159/
 PM2 auto startup
 http://pm2.keymetrics.io/docs/usage/startup/
 -
+etckeeper
+Для контроля версий /etc в линуксе
+-
