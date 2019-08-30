@@ -31,3 +31,7 @@ CI/CD
 Web Servers
  -
  - Nginx(https://github.com/DmitryShevkun/techinfo/tree/master/nginx)
+ - 
+Other
+ - 
+ - Chat Ops
