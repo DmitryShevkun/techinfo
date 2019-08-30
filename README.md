@@ -39,3 +39,6 @@ Web Servers
 Other
  - 
  - Chat Ops
+ -
+ - Bash Scripting
+ -
