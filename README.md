@@ -47,7 +47,6 @@ Containerisation & Virtualization
 Monitoring
  -
  - (https://github.com/DmitryShevkun/techinfo/tree/master/Monitoring)
- -
 Other
  - 
  - Chat Ops
