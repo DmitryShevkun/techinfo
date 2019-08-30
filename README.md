@@ -54,7 +54,7 @@ Monitoring
  -
 Other
  - 
- - Chat Ops
+ - Chat Ops(https://github.com/DmitryShevkun/techinfo/tree/master/ChatOps)
  -
  - Bash Scripting
  -
