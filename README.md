@@ -34,7 +34,7 @@ CI/CD
  -
  - Travis-CI(https://github.com/DmitryShevkun/techinfo/tree/master/Travis-CI)
  -
- - Gitlab CI
+ - Gitlab(https://github.com/DmitryShevkun/techinfo/tree/master/Gitlab)
  -
 Web Servers
  -
