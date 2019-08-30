@@ -18,6 +18,8 @@ Deployment
  -
  - SaltStack(https://github.com/saltstack/salt)
  -
+ - Vagrant(https://github.com/DmitryShevkun/techinfo/tree/master/Vagrant)
+ -
 CI/CD
  -
  - Jenkins(https://github.com/DmitryShevkun/techinfo/tree/master/Jenkins)
