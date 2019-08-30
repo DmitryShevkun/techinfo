@@ -8,7 +8,7 @@
  -
  - Aurora(https://github.com/DmitryShevkun/techinfo/tree/master/Aurora)
  -
- - DC/OS
+ - DC/OS(https://github.com/DmitryShevkun/techinfo/tree/master/DCOS)
  -
 Deployment
  -
