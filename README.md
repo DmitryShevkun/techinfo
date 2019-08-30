@@ -6,7 +6,7 @@
  -
  - DockerSwarm(https://github.com/docker/swarm)
  -
- - Aurora
+ - Aurora(https://github.com/DmitryShevkun/techinfo/tree/master/Aurora)
  -
  - DC/OS
  -
