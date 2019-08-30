@@ -6,7 +6,7 @@
  -
  - DockerSwarm(https://github.com/docker/swarm)
  -
-Вeployment
+Deployment
  -
  - Terraform(https://github.com/DmitryShevkun/techinfo/tree/master/Terraform)
  -
