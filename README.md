@@ -1,4 +1,4 @@
-Оркестраторы:
+Оrchestrators
  -
  - Kubernetes(https://github.com/DmitryShevkun/techinfo/tree/master/K8s)
  -
@@ -6,7 +6,7 @@
  -
  - DockerSwarm(https://github.com/docker/swarm)
  -
-Системы развёртывания:
+Вeployment
  -
  - Terraform(https://github.com/DmitryShevkun/techinfo/tree/master/Terraform)
  -
