@@ -6,6 +6,10 @@
  -
  - DockerSwarm(https://github.com/docker/swarm)
  -
+ - Aurora
+ -
+ - DC/OS
+ -
 Deployment
  -
  - Terraform(https://github.com/DmitryShevkun/techinfo/tree/master/Terraform)
