@@ -30,6 +30,8 @@ CI/CD
  -
  - Travis-CI(https://github.com/DmitryShevkun/techinfo/tree/master/Travis-CI)
  -
+ - Gitlab CI
+ -
 Web Servers
  -
  - Nginx(https://github.com/DmitryShevkun/techinfo/tree/master/nginx)
