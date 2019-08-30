@@ -45,7 +45,8 @@ Containerisation & Virtualization
  - Packer
  -
 Monitoring
-(https://github.com/DmitryShevkun/techinfo/tree/master/Monitoring)
+ -
+ - (https://github.com/DmitryShevkun/techinfo/tree/master/Monitoring)
  -
 Other
  - 
