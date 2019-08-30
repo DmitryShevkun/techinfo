@@ -32,7 +32,7 @@ Web Servers
  -
  - Nginx(https://github.com/DmitryShevkun/techinfo/tree/master/nginx)
  - 
- - Apache/Tomcat
+ - Apache\Tomcat(https://github.com/DmitryShevkun/techinfo/tree/master/Apache%5CTomcat)
  -
 Other
  - 
