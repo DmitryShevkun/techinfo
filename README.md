@@ -44,10 +44,7 @@ Containerisation & Virtualization
  -
  - Packer
  -
-Monitoring
- -
- - Prometheus(http://www.prometheus.io/)
- -
+Monitoring(https://github.com/DmitryShevkun/techinfo/tree/master/Monitoring)
 Other
  - 
  - Chat Ops
