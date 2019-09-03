@@ -8,6 +8,7 @@ ru translate - https://habr.com/ru/post/305400/
 Короткая шпаргалка:
  - виртуальная ось указываеться в vagrantfile, например:
  machine.vm.box = "ubuntu/bionic64"
+ -
  - запуск - vagrant up
  - подключение по ssh - vagrant ssh
  - состояние в.машин - vagrant status
