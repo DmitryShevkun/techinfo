@@ -6,4 +6,5 @@ service nginx restart
 - Test:
 nginx -t
 -
+Redirects
 https://www.dmosk.ru/miniinstruktions.php?mini=nginx-redirects
