@@ -1,9 +1,9 @@
 https://nginx.org/ru/
 -
-Restart:
+- Restart:
 systemctl restart nginx
 service nginx restart
-Test:
+- Test:
 nginx -t
 -
 https://www.dmosk.ru/miniinstruktions.php?mini=nginx-redirects
