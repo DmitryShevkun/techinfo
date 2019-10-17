@@ -1,0 +1,5 @@
+Что-бы разрешить в Content-Security-Policy элементы из base64
+например: data:image...
+нужно добавить data: в требуемый раздел
+например:
+add_header Content-Security-Policy "default-src 'self'; script-src 'self' data:"
