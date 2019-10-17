@@ -1,0 +1,7 @@
+Disclosed version
+Header палит версию системы - потенциально небезопасно.
+Решение:
+добавить в конфиг файл
+ sudo nano my_file
+строку
+ server_tokens off;
