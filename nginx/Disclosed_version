@@ -1,7 +1,10 @@
 Disclosed version
+https://geekflare.com/remove-server-header-banner-nginx/
+-
 Header палит версию системы - потенциально небезопасно.
 Решение:
 добавить в конфиг файл
- sudo nano my_file
+ sudo nano /etc/nginx/sites-available/my_file
 строку
  server_tokens off;
+во всех блоках server{}
