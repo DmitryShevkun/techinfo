@@ -12,3 +12,6 @@ https://www.dmosk.ru/miniinstruktions.php?mini=nginx-redirects
 Nginx security settings
 https://gist.github.com/plentz/6737338
 -
+Feature-Policy Headers
+https://fearby.com/article/set-up-feature-policy-referrer-policy-and-content-security-policy-headers-in-nginx/
+-
