@@ -3,6 +3,9 @@ https://nginx.org/ru/
 - Restart:
 systemctl restart nginx
 service nginx restart
+- Config renew
+nginx -s reload
+-
 - Test:
 nginx -t
 -
