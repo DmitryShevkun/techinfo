@@ -1,0 +1,16 @@
+
+Certificates created by AWS ACM can be AUTOMATICALLY updated in two ways:
+1) Using private CAs ($ 400 per month for CAs + certificate fee)
+2) Using an https request that compares the certificate received in the response with the existing one.
+If the above update methods do not work, then you can manually renew the certificate through mail.
+admin@domen.com
+webmaster@domen.com
+and others.
+-------------------------------------------------------------------------------------------------------
+Сертификаты созданные AWS ACM могут АВТОМАТИЧЕСКИ обновляться двумя способами:
+1) С помощью приватного CAs( 400$ в месяц за CAs + плата за сертификаты )
+2) С помощью https запроса который сопоставляет полученный в ответе сертификат с имеющимся.
+Если указанные выше способы обновления не работают то можно вручную обновить сертификат через почту.
+admin@domen.com
+webmaster@domen.com
+и прочие.
