@@ -28,5 +28,6 @@ A curated list of nginx distributions, third party modules, active developers...
 https://github.com/agile6v/awesome-nginx
 -
 A tool to build deb or rpm package of required Nginx
+https://habr.com/ru/company/tinkoff/blog/452336/
 https://github.com/TinkoffCreditSystems/Nginx-builder
 -
