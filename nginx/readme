@@ -10,6 +10,21 @@ nginx -t
 - Show all nginx modules
 strings /usr/sbin/nginx|grep _module|grep -v configure| sort
 -
+Interesting modules:
+https://github.com/openresty/headers-more-nginx-module
+https://github.com/AirisX/nginx_cookie_flag_module
+https://github.com/anomalizer/ngx_aws_auth
+https://github.com/apache/incubator-pagespeed-ngx
+https://github.com/nbs-system/naxsi
+https://github.com/spiderlabs/modsecurity/
+https://github.com/cfsego/ngx_log_if/
+https://github.com/cfsego/nginx-limit-upstream/
+https://github.com/masonicboom/ipscrub
+https://github.com/flygoast/ngx_http_internal_redirect/
+https://github.com/Lax/traffic-accounting-nginx-module
+https://github.com/yaoweibin/nginx_upstream_check_module
+
+-
 Redirects
 https://www.dmosk.ru/miniinstruktions.php?mini=nginx-redirects
 -
