@@ -5,9 +5,10 @@ systemctl restart nginx
 service nginx restart
 - Config renew
 nginx -s reload
--
 - Test:
 nginx -t
+- show all nginx modules
+strings /usr/sbin/nginx|grep _module|grep -v configure| sort
 -
 Redirects
 https://www.dmosk.ru/miniinstruktions.php?mini=nginx-redirects
