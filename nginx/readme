@@ -23,6 +23,11 @@ https://github.com/masonicboom/ipscrub
 https://github.com/flygoast/ngx_http_internal_redirect/
 https://github.com/Lax/traffic-accounting-nginx-module
 https://github.com/yaoweibin/nginx_upstream_check_module
+https://github.com/vozlt/nginx-module-sysguard
+https://github.com/yaoweibin/nginx_tcp_proxy_module
+https://github.com/yaoweibin/ngx_http_substitutions_filter_module
+https://github.com/openresty/set-misc-nginx-module
+https://github.com/GetPageSpeed/ngx_security_headers
 
 -
 Redirects
