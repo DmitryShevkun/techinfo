@@ -16,3 +16,5 @@ https://www.digitalocean.com/community/tutorials/how-to-set-up-scheduled-logical
 Mongo auto startup add
 sudo systemctl enable mongod.service
 -
+Mongo Shell
+https://docs.mongodb.com/manual/mongo/
