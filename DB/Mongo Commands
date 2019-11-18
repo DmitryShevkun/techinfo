@@ -23,7 +23,7 @@ db.dropUser("MyUser")
 - Аутентификация
 auth = true
 -
-------------------------------------------
+-----------------------------------------
 -
 - Базовая настройка 
 sudo nano /etc/mongod.conf
@@ -50,3 +50,18 @@ MONGO_URI=mongodb://User:Pass@localhost:27017/DB
 Esc
 :wq
 Enter
+-
+-----------------------------------------
+-
+- Для удаленного подключения к бд через консоль виндоус надо установить монгу локально
+https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/
+-
+- В консоли( лучше в PowerShell ) перейти в папку бин, например:
+cd C:\Program Files\MongoDB\Server\4.2\bin>
+- Далее все команды выполняются в этой папке:
+- Подключение
+.\mongo --host IP:PORT
+- Создание дампа в папку dump в корне диска C:
+.\mongodump --host IP:PORT --out=/dump/
+- Восстановление из дампа
+.\mongorestore --host IP:PORT dump/
