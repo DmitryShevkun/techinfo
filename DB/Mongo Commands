@@ -20,6 +20,8 @@ db.createUser({
 })
 - Удалить юзера
 db.dropUser("MyUser")
+- Удалить базу
+db.dropDatabase("MyDB")
 - Аутентификация
 auth = true
 -
