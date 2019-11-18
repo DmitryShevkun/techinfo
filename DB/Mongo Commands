@@ -1,0 +1,52 @@
+sudo service mongod status
+-
+sudo service mongod restart
+-
+-----------------------------------------
+-
+- Войти в консоль управления Монги
+mongo
+- Посмотреть список баз
+show dbs
+- Выбрать базу
+use MyDB
+- Посмотреть список юзеров в выбранной базе
+db.getUsers()
+- Добавить юзера
+db.createUser({
+  user: 'MyUser',
+  pwd: 'MyPassword',
+  roles: [{ role: 'readWrite', db:'MyDB'}]
+})
+- Удалить юзера
+db.dropUser("MyUser")
+- Аутентификация
+auth = true
+-
+------------------------------------------
+-
+- Базовая настройка 
+sudo nano /etc/mongod.conf
+
+- Для открытого доступа со всех IP
+# network interfaces
+net:
+ port: 27017
+ bindIp: 0.0.0.0
+ 
+- Для PROD оставляем только локал
+# network interfaces
+net:
+ port: 27017
+ bindIp: 127.0.0.1
+ 
+..и добавлчем авторизацию
+security:
+ authorization: 'enabled'
+ 
+..не забудьте создать юзера, пример настроек для кейстоуна для подключения к бд:
+sudo vim .env
+MONGO_URI=mongodb://User:Pass@localhost:27017/DB
+Esc
+:wq
+Enter
