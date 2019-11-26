@@ -17,3 +17,4 @@ FLUSH PRIVILEGES;
 -
 Посмотреть права - SHOW GRANTS FOR user@localhost;
 Посмотреть юзеров - SELECT User FROM mysql.user;
+посмотреть список баз - SHOW DATABASES;
