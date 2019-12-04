@@ -1,0 +1,4 @@
+Настройка получения писем в S3 бакет
+( в первой статье не хватает бакет полиси из второй )
+https://medium.com/@fullsour/receiving-email-using-ses-s3-and-route53-471ad9e8cab3
+https://aws.amazon.com/premiumsupport/knowledge-center/ses-receive-inbound-emails/
