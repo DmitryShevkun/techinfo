@@ -31,3 +31,7 @@ https://stackoverflow.com/questions/8424228/export-import-jobs-in-jenkins
 -
 SonarQube
 https://plugins.jenkins.io/sonar
+-
+Letsencript for Jenkins
+https://github.com/hughperkins/howto-jenkins-ssl/blob/master/letsencrypt.md
+-
