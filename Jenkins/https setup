@@ -15,3 +15,4 @@ but most brousers will not allow to open you website using that ssl key.
 you can't use 443 port
 to redirect traffic from 8443 to 443 use iptables
 https://wiki.jenkins.io/display/JENKINS/Running+Jenkins+on+Port+80+or+443+using+iptables
+https://help.ubuntu.com/community/IptablesHowTo
