@@ -46,7 +46,7 @@ net:
 security:
  authorization: 'enabled'
  
-..не забудьте создать юзера, пример настроек для кейстоуна для подключения к бд:
+..не забудьте создать юзера, пример настроек для подключения к бд:
 sudo vim .env
 MONGO_URI=mongodb://User:Pass@localhost:27017/DB
 Esc
