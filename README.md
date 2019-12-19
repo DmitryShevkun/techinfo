@@ -1,4 +1,4 @@
-<a target="_blank"><img src="https://github.com/DmitryShevkun/techinfo/blob/master/qr.jpg" width="148" height="148" border="0" title="QR код"></a>
+<a href=https://github.com/DmitryShevkun/techinfo target="_blank"><img src="https://github.com/DmitryShevkun/techinfo/blob/master/qr.jpg" width="150" height="150" border="0" title="QR код"></a>
 -
 Оrchestrators
  -
