@@ -12,9 +12,11 @@
  -
  - DC/OS(https://github.com/DmitryShevkun/techinfo/tree/master/DCOS)
  -
-Deployment
- -
  - Terraform(https://github.com/DmitryShevkun/techinfo/tree/master/Terraform)
+ -
+ - Vagrant(https://github.com/DmitryShevkun/techinfo/tree/master/Vagrant)
+ -
+Configurators
  -
  - Ansible(https://github.com/DmitryShevkun/techinfo/tree/master/Ansible)
  -
@@ -23,8 +25,6 @@ Deployment
  - Puppet(https://github.com/puppetlabs/puppet)
  -
  - SaltStack(https://github.com/saltstack/salt)
- -
- - Vagrant(https://github.com/DmitryShevkun/techinfo/tree/master/Vagrant)
  -
 CI/CD
  -
