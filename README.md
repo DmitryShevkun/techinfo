@@ -58,5 +58,7 @@ Other
  - 
  - Chat Ops(https://github.com/DmitryShevkun/techinfo/tree/master/ChatOps)
  -
- - Bash Scripting(https://github.com/DmitryShevkun/techinfo/tree/master/Monitoring)
+ - Bash scr ?
+ - Python scr?
+ - Other Specific Scripting ?
  -
