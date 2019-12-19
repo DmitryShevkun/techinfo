@@ -7,23 +7,70 @@ sudo service mongod restart
 - Войти в консоль управления Монги
 mongo
 - Посмотреть список баз
-show dbs
+> show dbs
+admin   0.000GB
+config  0.000GB
+local   0.000GB
+test    0.000GB
+>
 - Выбрать базу
-use MyDB
-- Посмотреть список юзеров в выбранной базе
-db.getUsers()
+> db
+test
+>
+- Посмотреть список юзеров в выбранной базе( если база новая - юзеров нету )
+> db.getUsers()
+[ ]
+>
+> db.getUsers() [ {
+                "_id" : "test.testUser",
+                "user" : "testUser",
+                "db" : "test",
+                "roles" : [ {
+                                "role" : "readWrite",
+                                "db" : "test"
+                        } ]
+                },
+                {
+                "_id" : "test.testUser2",
+                "user" : "testUser2",
+                "db" : "test",
+                "roles" : [ {
+                                "role" : "readWrite",
+                                "db" : "test"
+                        } ]
+                } ]
+>
 - Добавить юзера
-db.createUser({
-  user: 'MyUser',
-  pwd: 'MyPassword',
-  roles: [{ role: 'readWrite', db:'MyDB'}]
-})
+> db.createUser({  user: 'testUser',  pwd: 'testPass',  roles: [{ role: 'readWrite', db:'test'}]})
+Successfully added user: {
+        "user" : "testUser",
+        "roles" : [
+                {
+                        "role" : "readWrite",
+                        "db" : "test"
+                }
+        ]
+}
+>
+- Изменить юзера
+db.updateUser( "testUser", { roles : [ { role : "dbAdmin", db : "test"  }, { role : "readWrite", db : "test"  } ] } )
 - Удалить юзера
-db.dropUser("MyUser")
+> db.dropUser("testUser")
+true
+>
+-----------------------------------------
+- Выбрать БД или Создать новую
+> use test
+switched to db test
+>
+- Посмотреть какая база выбрана
+> db
+test
+>
 - Удалить базу
-db.dropDatabase("MyDB")
-- Аутентификация
-auth = true
+> db.dropDatabase()
+{ "dropped" : "test", "ok" : 1 }
+>
 -
 -----------------------------------------
 -
@@ -62,8 +109,8 @@ https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/
 cd C:\Program Files\MongoDB\Server\4.2\bin>
 - Далее все команды выполняются в этой папке:
 - Подключение
-.\mongo --host IP:PORT
+.\mongo.exe --username testUser --password testPass --authenticationDatabase test --host 34.245.11.182:27017
 - Создание дампа в папку dump в корне диска C:
-.\mongodump --host IP:PORT --out=/dump/
+.\mongodump.exe --username backupUser --password testPass --authenticationDatabase admin --host 34.245.11.182:27017 --out=/dump/
 - Восстановление из дампа
-.\mongorestore --host IP:PORT dump/
+.\mongorestore.exe --host 34.245.11.182:27017 C:/dump/
