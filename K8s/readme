@@ -2,11 +2,11 @@ Kubernetes
 -
 https://kubernetes.io/
 -
-Habr blog
-https://habr.com/ru/company/piter/blog/433192/
--
 local k8s - minikube
 https://kubernetes.io/docs/setup/minikube/ 
+-
+Other topics
+https://habr.com/ru/company/piter/blog/433192/
 -
 Готовить Kubernetes-кластер просто и удобно? Анонсируем addon-operator
 https://habr.com/ru/company/flant/blog/455543/
