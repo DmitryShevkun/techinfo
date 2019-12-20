@@ -35,3 +35,6 @@ https://plugins.jenkins.io/sonar
 Letsencript for Jenkins
 https://github.com/hughperkins/howto-jenkins-ssl/blob/master/letsencrypt.md
 -
+PARALLEL BUILDS WITH JENKINS PIPELINE
+https://comsystoreply.de/blog-post/parallel-builds-with-jenkins-pipeline
+-
