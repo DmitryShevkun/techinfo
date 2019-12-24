@@ -20,7 +20,7 @@ Mongo Shell
 https://docs.mongodb.com/manual/mongo/
 -
 Mongo не удаляет индексы при удалении объектов.
-Нужно отдельно выполянть команду удаления индекса либо периодически проводить реиндексирование базы.2
+Нужно отдельно выполянть команду удаления индекса либо периодически проводить реиндексирование базы.
 https://stackoverflow.com/questions/58372221/mongodb-remove-operation-does-not-remove-indexes
 -
 Fatal Assertion 40486
