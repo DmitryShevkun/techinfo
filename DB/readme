@@ -23,3 +23,6 @@ Mongo не удаляет индексы при удалении объекто�
 Нужно отдельно выполянть команду удаления индекса либо периодически проводить реиндексирование базы.2
 https://stackoverflow.com/questions/58372221/mongodb-remove-operation-does-not-remove-indexes
 -
+Fatal Assertion 40486
+https://stackoverflow.com/questions/41611146/mongoerror-failed-to-connect-to-server-localhost27017-on-first-connect
+-
