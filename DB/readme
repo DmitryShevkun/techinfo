@@ -1,13 +1,13 @@
 DB
 -
-Установка MySQL - https://www.digitalocean.com/community/tutorials/mysql-ubuntu-18-04-ru
+Установка MySQL
+https://www.digitalocean.com/community/tutorials/mysql-ubuntu-18-04-ru
 -
-Установка MongoDB - https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/
+Установка MongoDB
+https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/
 -
-install Postgress - https://github.com/snowplow/snowplow/wiki/Setting-up-PostgreSQL
--
-Удаленное подключение MongoDB - https://ianlondon.github.io/blog/mongodb-auth/
-с ошибкой bind ip - 0.0.0.0 должен быть
+install Postgress
+https://github.com/snowplow/snowplow/wiki/Setting-up-PostgreSQL
 -
 Mongo Backup
 https://coderwall.com/p/hdmmnq/easy-automatic-nightly-backups-for-mongodb
@@ -18,3 +18,8 @@ sudo systemctl enable mongod.service
 -
 Mongo Shell
 https://docs.mongodb.com/manual/mongo/
+-
+Mongo не удаляет индексы при удалении объектов.
+Нужно отдельно выполянть команду удаления индекса либо периодически проводить реиндексирование базы.2
+https://stackoverflow.com/questions/58372221/mongodb-remove-operation-does-not-remove-indexes
+-
