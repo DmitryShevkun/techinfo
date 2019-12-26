@@ -1,0 +1,10 @@
+Пример использования альтернативного юзера в контейнере( использование умолчательного root-а крайне небезопасно )
+-
+FROM ubuntu
+RUN mkdir /app
+RUN groupadd -r lirantal && useradd -r -s /bin/false -g lirantal lirantal
+WORKDIR /app
+COPY . /app
+RUN chown -R lirantal:lirantal /app
+USER lirantal
+CMD node index.js
