@@ -16,3 +16,28 @@ you can't use 443 port
 to redirect traffic from 8443 to 443 use iptables
 https://wiki.jenkins.io/display/JENKINS/Running+Jenkins+on+Port+80+or+443+using+iptables
 https://help.ubuntu.com/community/IptablesHowTo
+-
+Scripts
+-
+открыть 80 и 443
+sudo docker run -v /etc/letsencrypt:/etc/letsencrypt -p 80:80 -p 443:443 -it letsencrypt
+./letsencrypt-auto renew
+-
+openssl pkcs12 
+-export 
+-out jen.pfx 
+-inkey privkey.pem 
+-in cert.pem 
+-passout pass:password
+-
+keytool8 
+-importkeystore 
+-srckeystore /etc/letsencrypt/live/ci.mifort.com/jen.pfx 
+-srcstoretype pkcs12 
+-destkeystore ~/home 
+-deststoretype JKS 
+-srcstorepass password 
+-deststorepass password
+-
+Добавить настройки в сисконфиг либо кастомные аргументы:
+JENKINS_ARGS="--httpPort=-1 --httpsPort=443 --httpsKeyStore=~/home/jenkins.jks --httpsKeyStorePassword=password"
