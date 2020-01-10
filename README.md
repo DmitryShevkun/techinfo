@@ -16,6 +16,8 @@
  -
  - Vagrant(https://github.com/DmitryShevkun/techinfo/tree/master/Vagrant)
  -
+ - Helm()
+ -
 Configurators
  -
  - Ansible(https://github.com/DmitryShevkun/techinfo/tree/master/Ansible)
