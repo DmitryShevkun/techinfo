@@ -22,7 +22,7 @@ Configurators
  -
  - Ansible(https://github.com/DmitryShevkun/techinfo/tree/master/Ansible)
  -
- - Chef(https://github.com/chef/chef)
+ - Chef(https://github.com/chef)
  -
  - Puppet(https://github.com/puppetlabs/puppet)
  -
