@@ -16,7 +16,7 @@
  -
  - Vagrant(https://github.com/DmitryShevkun/techinfo/tree/master/Vagrant)
  -
- - Helm()
+ - Helm(https://github.com/DmitryShevkun/techinfo/tree/master/Helm)
  -
 Configurators
  -
