@@ -2,6 +2,9 @@ Terraform
 -
 https://www.terraform.io/
 -
+get started
+https://learn.hashicorp.com/terraform/getting-started/intro
+-
 terratest
 https://github.com/gruntwork-io/terratest
 -
