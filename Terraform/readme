@@ -12,16 +12,16 @@ terraform destroy
 terraform refresh
 -
 -Variables:
---String
+---String
 variable "region" {
   default = "us-east-1"
 }
---List
+---List
 variable "cidrs" {
   type = list
   default = []
 }
---Map
+---Map
 variable "amis" {
   type = "map"
   default = {
