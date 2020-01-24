@@ -7,3 +7,4 @@ terraform show
 terraform state
 terraform destroy
 terraform refresh
+terraform output
