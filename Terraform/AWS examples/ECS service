@@ -5,7 +5,7 @@ provider "aws" {
 
 # --- Container Image Variable ---
 variable "My_Image" {
-  default = "mongo:latest"
+  default = "My_Docker_Image:latest"
 }
 
 # --- Cluster ---
