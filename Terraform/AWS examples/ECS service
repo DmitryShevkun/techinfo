@@ -1,0 +1,51 @@
+provider "aws" {
+  profile    = "My_Profile"
+  region     = "eu-west-1"
+}
+
+# --- Container Image Variable ---
+variable "My_Image" {
+  default = "mongo:latest"
+}
+
+# --- Cluster ---
+resource "aws_ecs_cluster" "My_Cluster" {
+  name = "My_Cluster"
+}
+
+# --- Task Definition ---
+data "aws_ecs_task_definition" "My_Task" {
+  task_definition = aws_ecs_task_definition.My_Family.family
+}
+
+# --- Family ---
+resource "aws_ecs_task_definition" "My_Family" {
+  family = "My_Test_App"
+
+  container_definitions = <<DEFINITION
+[
+  {
+    "cpu": 128,
+    "environment": [{
+      "name": "SECRET",
+      "value": "KEY"
+    }],
+    "essential": true,
+    "image": "My_Image",
+    "memory": 128,
+    "memoryReservation": 64,
+    "name": "My_Test_App"
+  }
+]
+DEFINITION
+}
+
+# --- Create Service at Claster ---
+resource "aws_ecs_service" "My_Service" {
+  name          = "My_Service"
+  cluster       = aws_ecs_cluster.My_Cluster.id
+  desired_count = 2
+
+  # Track the latest ACTIVE revision
+  task_definition = "${aws_ecs_task_definition.My_Family.family}:${max("${aws_ecs_task_definition.My_Family.revision}", "${data.aws_ecs_task_definition.My_Task.revision}")}"
+}
