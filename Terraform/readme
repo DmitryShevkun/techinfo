@@ -5,6 +5,11 @@ https://www.terraform.io/
 get started
 https://learn.hashicorp.com/terraform/getting-started/intro
 -
+Set CLI config
+https://www.terraform.io/docs/commands/cli-config.html
+and provider Cache( end of page )
+https://www.terraform.io/docs/configuration/providers.html
+-
 terratest
 https://github.com/gruntwork-io/terratest
 -
