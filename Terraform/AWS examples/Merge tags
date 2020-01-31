@@ -1,3 +1,19 @@
+variable "tag_default" {
+   type        = map(string)
+   default     = {
+      "Name" = "HelloWorld"
+   }
+}
+
+variable "tag_map" {
+   type        = map(string)
+   default     = {
+      tag1   = "0ad303949e19f897a"
+      tag2   = "0d76cb8752ad73ab1"
+      tag3   = "0f38cdec7da648424"
+   }
+}
+
 resource "aws_instance" "test_instance" {
   ami           = "ami-02df9ea15c1778c9c"
   instance_type = "t2.micro"
