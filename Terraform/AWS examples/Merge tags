@@ -1,0 +1,11 @@
+resource "aws_instance" "test_instance" {
+  ami           = "ami-02df9ea15c1778c9c"
+  instance_type = "t2.micro"
+
+  tags = merge(var.tag_default, var.tag_map)
+
+}
+
+output "instance_tags" {
+  value = aws_instance.test_instance.tags
+}
