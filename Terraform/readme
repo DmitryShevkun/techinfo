@@ -2,11 +2,14 @@ Terraform
 -
 https://www.terraform.io/
 -
+get started
+https://learn.hashicorp.com/terraform/getting-started/intro
+-
 Expressions
 https://www.terraform.io/docs/configuration/expressions.html#conditional-expressions
 -
-get started
-https://learn.hashicorp.com/terraform/getting-started/intro
+Dynamic
+https://github.com/hashicorp/terraform/issues/19853
 -
 Set CLI config
 https://www.terraform.io/docs/commands/cli-config.html
