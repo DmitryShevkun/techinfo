@@ -10,6 +10,7 @@ https://www.terraform.io/docs/configuration/expressions.html#conditional-express
 -
 Dynamic
 https://github.com/hashicorp/terraform/issues/19853
+https://medium.com/@business_99069/terraform-0-12-conditional-block-7d166e4abcbf
 -
 Set CLI config
 https://www.terraform.io/docs/commands/cli-config.html
