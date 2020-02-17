@@ -2,6 +2,9 @@ Terraform
 -
 https://www.terraform.io/
 -
+Expressions
+https://www.terraform.io/docs/configuration/expressions.html#conditional-expressions
+-
 get started
 https://learn.hashicorp.com/terraform/getting-started/intro
 -
