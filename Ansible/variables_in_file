@@ -1,0 +1,4 @@
+ansible search inventory files for variables in a tree order
+   group_vars/parent_group
+   group_vars/child_subgroup
+   host_vars/hostname
