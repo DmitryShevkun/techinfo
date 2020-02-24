@@ -2,4 +2,8 @@ Ansible
 -
 https://www.ansible.com/
 -
+module list
+http://docs.ansible.com/list_of_all_modules.html
+-
 https://habr.com/ru/post/305400/
+-
