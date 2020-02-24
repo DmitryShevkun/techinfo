@@ -9,7 +9,6 @@
 -e key_1=val_1 key_2=val_2   # extra variables
 
 ansible_port=22   # ssh port ansible connect to
-
 -l host_name   # limits targets
 
 ansible-playbook -i step-04/hosts -l host1 step-04/apache.yml
