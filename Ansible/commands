@@ -1,1 +1,7 @@
+-i HOSTS         # inventory file
 
+-m MODULE_NSME   # module call
+   ansible -i step-02/hosts -m setup host0
+   
+-a MODULE_ARGS   # add arguments to module call
+   ansible -i step-02/hosts -m setup -a 'filter=ansible_memtotal_mb' all
