@@ -3,3 +3,26 @@ Monitoring
 Prometheus(http://www.prometheus.io/)
 - https://habr.com/ru/company/selectel/blog/275803/
 -
+Security Monitoring
+-
+Osquery
+https://github.com/osquery/osquery
+-
+GoAudit
+https://people.redhat.com/sgrubb/audit/
+-
+Grapl
+https://github.com/insanitybit/grapl
+-
+OSSEC
+https://github.com/ossec/ossec-hids
+-
+Suricata
+https://github.com/OISF/suricata
+-
+Zeek (Bro)
+https://github.com/zeek/zeek
+-
+Panther
+https://github.com/panther-labs/panther
+-
