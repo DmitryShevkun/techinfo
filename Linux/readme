@@ -37,3 +37,6 @@ IPtables
 https://wiki.jenkins.io/display/JENKINS/Running+Jenkins+on+Port+80+or+443+using+iptables
 https://help.ubuntu.com/community/IptablesHowTo
 -
+Applications shortcuts folder
+/usr/share/applications
+-
