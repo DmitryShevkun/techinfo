@@ -21,6 +21,9 @@ https://github.com/aws/aws-codedeploy-agent
 Lambda Python
 https://habr.com/ru/post/435180/
 -
-S3 Select
+S3.Select_method
 https://aws.amazon.com/blogs/aws/s3-glacier-select/
+-
+еще много интересного о boto3
+https://www.codeflow.site/ru/article/python-boto3-aws-s3
 -
