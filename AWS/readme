@@ -18,3 +18,6 @@ https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/ResourceRecordTypes.ht
 CodeDeploy Agent Sourse
 https://github.com/aws/aws-codedeploy-agent
 -
+S3 Select
+https://aws.amazon.com/blogs/aws/s3-glacier-select/
+-
