@@ -40,3 +40,7 @@ https://help.ubuntu.com/community/IptablesHowTo
 Applications shortcuts folder
 /usr/share/applications
 -
+Mount iso file
+sudo mount filename.iso test_folder
+sudo mount -t udf file.iso test_folder
+-
