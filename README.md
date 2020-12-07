@@ -56,6 +56,10 @@ Monitoring
  -
  - (https://github.com/DmitryShevkun/techinfo/tree/master/Monitoring)
  -
+Debugging Tools
+ -
+ - Postman(https://www.postman.com/)
+ -
 Other
  - 
  - Chat Ops(https://github.com/DmitryShevkun/techinfo/tree/master/ChatOps)
