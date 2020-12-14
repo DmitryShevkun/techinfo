@@ -13,6 +13,9 @@ Mongo Backup
 https://coderwall.com/p/hdmmnq/easy-automatic-nightly-backups-for-mongodb
 https://www.digitalocean.com/community/tutorials/how-to-set-up-scheduled-logical-mongodb-backups-to-digitalocean-spaces
 -
+PSQL Backup
+https://gist.github.com/brock/7a7a70300096632cec30
+-
 Mongo auto startup add
 sudo systemctl enable mongod.service
 -
