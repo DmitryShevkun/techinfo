@@ -1,5 +1,8 @@
 https://nginx.org/ru/
 -
+documentations
+https://docs.nginx.com/
+-
 - Restart:
 systemctl restart nginx
 service nginx restart
