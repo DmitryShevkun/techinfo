@@ -17,8 +17,8 @@ node {
 }
 -
 where.. 
-identity and userName used as it is, no need to change them. It means that variables identity and userName are taken from your 'credantials-id-fromyour credentials-store' record and then transfered to script.
-Second thing that where coonfusing from start but turn clear after previous line is that userName in your 'credantials-id-fromyour credentials-store' record is name of user at remote server to connect, you need to place .pub key at authorized_keys file at .ssh folder of than user.
+identity and userName used as it is, no need to change them. It means that variables 'identity' and 'userName' are taken from your 'credantials-id-from-your-credentials-store' record and then transfered to script.
+Second thing that where coonfusing from start but turn clear after previous line is that userName in your credantials set record is the name of user at remote server to connect, you need to place .pub key at authorized_keys file at .ssh folder of than user.
 -
 example:
 
