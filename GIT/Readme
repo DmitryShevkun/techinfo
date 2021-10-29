@@ -10,3 +10,5 @@ https://htmlacademy.ru/blog/boost/tools/how-to-squash-commits-and-why-it-is-need
 починить зафакапленый ребейз
 https://krishansubudhi.github.io/git/2020/01/20/git-rebase-undo.html
 -
+Длинна пути/вложенность( может ругатся при Клоне )
+sudo git config --system core.longpaths true
