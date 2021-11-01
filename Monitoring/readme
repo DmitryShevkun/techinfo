@@ -4,6 +4,8 @@ Prometheus
 http://www.prometheus.io/
 - https://habr.com/ru/company/selectel/blog/275803/
 - https://blog.programs74.ru/how-to-install-prometheus-and-alertmanager-on-centos8/
+Prometheus Exporters List
+- https://prometheus.io/docs/instrumenting/exporters/
 -
 Security Monitoring
 -
