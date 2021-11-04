@@ -4,6 +4,9 @@ Linux
 uname -a
 cat /proc/version
 -
+systemctl
+https://www.digitalocean.com/community/tutorials/how-to-use-systemctl-to-manage-systemd-services-and-units-ru
+-
 СКРИПТ
 chmod +x script.sh
 -
