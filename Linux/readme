@@ -4,6 +4,9 @@ Linux
 uname -a
 cat /proc/version
 -
+Users and Groups
+https://devconnected.com/how-to-list-users-and-groups-on-linux/
+-
 systemctl
 https://www.digitalocean.com/community/tutorials/how-to-use-systemctl-to-manage-systemd-services-and-units-ru
 -
