@@ -36,3 +36,5 @@ https://postgrespro.ru/docs/postgresql/9.5/sql-commands
 PSQL resurses consume
 https://aaronparecki.com/2015/02/19/8/monitoring-cpu-memory-usage-from-postgres
 -
+Postgres Operator for docker/k8s
+https://github.com/zalando/postgres-operator
