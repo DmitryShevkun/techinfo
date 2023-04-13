@@ -27,3 +27,7 @@ https://aws.amazon.com/blogs/aws/s3-glacier-select/
 еще много интересного о boto3
 https://www.codeflow.site/ru/article/python-boto3-aws-s3
 -
+Adding volume to Container
+https://stackoverflow.com/questions/52041550/mount-s3-bucket-as-filesystem-on-aws-ecs-container
+pay attention on that rexray driver used for various volume connection like S3, EFS, EBS
+-
