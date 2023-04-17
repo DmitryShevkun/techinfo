@@ -27,6 +27,9 @@ https://github.com/GoogleCloudPlatform/terraformer
 terraform-ebs-attachmentizer
 https://github.com/heap/terraform-ebs-attachmentizer
 -
+AWS ECS Cluster with Terraform
+https://dev.to/thnery/create-an-aws-ecs-cluster-using-terraform-g80
+-
 Other topics
 https://habr.com/en/company/piter/blog/351878/
 https://habr.com/en/company/dins/blog/470543/
