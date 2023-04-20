@@ -38,3 +38,7 @@ https://aaronparecki.com/2015/02/19/8/monitoring-cpu-memory-usage-from-postgres
 -
 Postgres Operator for docker/k8s
 https://github.com/zalando/postgres-operator
+-
+Using PowerShell to query Oracle DB’s without using the Oracle Client
+https://blog.darrenjrobinson.com/using-powershell-to-query-oracle-dbs-without-using-the-oracle-client-oracle-data-provider-for-net/
+-
