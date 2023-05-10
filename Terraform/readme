@@ -33,3 +33,7 @@ https://dev.to/thnery/create-an-aws-ecs-cluster-using-terraform-g80
 Other topics
 https://habr.com/en/company/piter/blog/351878/
 https://habr.com/en/company/dins/blog/470543/
+-
+Terraform tips & tricks: loops, if-statements, and gotchas
+https://blog.gruntwork.io/terraform-tips-tricks-loops-if-statements-and-gotchas-f739bbae55f9
+-
