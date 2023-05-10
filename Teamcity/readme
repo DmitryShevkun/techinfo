@@ -16,3 +16,6 @@ https://plugins.jetbrains.com/plugin/14903-agent-auto-auth
 Deploy Terraform in TeamSity
 https://medium.com/@bberkayilmaz/how-to-deploy-terraform-infrastructure-code-in-teamcity-61782a9d23ab
 -
+Terraform tips & tricks: loops, if-statements, and gotchas
+https://blog.gruntwork.io/terraform-tips-tricks-loops-if-statements-and-gotchas-f739bbae55f9
+-
