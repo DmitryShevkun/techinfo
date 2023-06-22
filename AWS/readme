@@ -31,3 +31,6 @@ Adding volume to Container
 https://stackoverflow.com/questions/52041550/mount-s3-bucket-as-filesystem-on-aws-ecs-container
 pay attention on that rexray driver used for various volume connection like S3, EFS, EBS
 -
+Initialize EC2 Windows Profile
+https://serverfault.com/questions/872046/aws-windows-ec2-instance-does-not-recognize-assigned-iam-role
+-
