@@ -34,3 +34,6 @@ pay attention on that rexray driver used for various volume connection like S3, 
 Initialize EC2 Windows Profile
 https://serverfault.com/questions/872046/aws-windows-ec2-instance-does-not-recognize-assigned-iam-role
 -
+Setup crossaccount network connection
+https://tomgregory.com/cross-account-vpc-access-in-aws/
+-
