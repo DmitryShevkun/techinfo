@@ -2,7 +2,7 @@
 -
 Оrchestrators
  -
- - Kubernetes(https://github.com/DmitryShevkun/techinfo/tree/master/K8s)
+ - K8s(https://github.com/DmitryShevkun/techinfo/tree/master/K8s)
  -
  - Nomad(https://github.com/DmitryShevkun/techinfo/tree/master/Nomad)
  -
@@ -59,6 +59,16 @@ Monitoring
 Debugging Tools
  -
  - Postman(https://www.postman.com/)
+ -
+Queue services
+ -
+ - Kafka(https://github.com/DmitryShevkun/techinfo/tree/master/Kafka)
+ - 
+ - RebbitMQ(https://github.com/DmitryShevkun/techinfo/tree/master/RabbitMQ)
+ - 
+ - VerneMQ(https://github.com/DmitryShevkun/techinfo/tree/master/VerneMQ)
+ - 
+ - Redis(https://github.com/DmitryShevkun/techinfo/tree/master/Redis)
  -
 Other
  - 
