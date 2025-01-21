@@ -40,25 +40,11 @@ CI/CD
  -
  - Gitlab(https://github.com/DmitryShevkun/techinfo/tree/master/Gitlab)
  -
-Web Servers
- -
- - Nginx(https://github.com/DmitryShevkun/techinfo/tree/master/nginx)
- - 
- - Apache&Tomcat(https://github.com/DmitryShevkun/techinfo/tree/master/Apache&Tomcat)
- -
 Containerisation & Virtualization
  -
  - Docker(https://github.com/DmitryShevkun/techinfo/tree/master/Docker)
  -
  - Packer(https://github.com/DmitryShevkun/techinfo/tree/master/Packer)
- -
-Monitoring
- -
- - (https://github.com/DmitryShevkun/techinfo/tree/master/Monitoring)
- -
-Debugging Tools
- -
- - Postman(https://www.postman.com/)
  -
 Queue services
  -
@@ -69,6 +55,20 @@ Queue services
  - VerneMQ(https://github.com/DmitryShevkun/techinfo/tree/master/VerneMQ)
  - 
  - Redis(https://github.com/DmitryShevkun/techinfo/tree/master/Redis)
+ -
+Web Servers
+ -
+ - Nginx(https://github.com/DmitryShevkun/techinfo/tree/master/nginx)
+ - 
+ - Apache&Tomcat(https://github.com/DmitryShevkun/techinfo/tree/master/Apache&Tomcat)
+ -
+Monitoring
+ -
+ - (https://github.com/DmitryShevkun/techinfo/tree/master/Monitoring)
+ -
+Debugging Tools
+ -
+ - Postman(https://www.postman.com/)
  -
 Other
  - 
