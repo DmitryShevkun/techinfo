@@ -46,6 +46,18 @@ Containerisation & Virtualization
  -
  - Packer(https://github.com/DmitryShevkun/techinfo/tree/master/Packer)
  -
+Data Bases
+ -
+ - Postgersql(https://github.com/DmitryShevkun/techinfo/tree/master/Postgersql)
+ - 
+ - MySQL(https://github.com/DmitryShevkun/techinfo/tree/master/Mysql)
+ -
+ - MicrosoftSQL(https://github.com/DmitryShevkun/techinfo/tree/master/MSsql)
+ -
+ - MongoDB(https://github.com/DmitryShevkun/techinfo/tree/master/Mongo)
+ -
+ - Redis(https://github.com/DmitryShevkun/techinfo/tree/master/Redis)
+ -
 Queue services
  -
  - Kafka(https://github.com/DmitryShevkun/techinfo/tree/master/Kafka)
@@ -54,27 +66,25 @@ Queue services
  - 
  - VerneMQ(https://github.com/DmitryShevkun/techinfo/tree/master/VerneMQ)
  - 
- - Redis(https://github.com/DmitryShevkun/techinfo/tree/master/Redis)
+ - Redis*(https://github.com/DmitryShevkun/techinfo/tree/master/Redis)
  -
 Web Servers
  -
  - Nginx(https://github.com/DmitryShevkun/techinfo/tree/master/nginx)
  - 
  - Apache&Tomcat(https://github.com/DmitryShevkun/techinfo/tree/master/Apache&Tomcat)
+
+ - IIS(https://github.com/DmitryShevkun/techinfo/tree/master/IIS)
  -
-Monitoring
- -
- - (https://github.com/DmitryShevkun/techinfo/tree/master/Monitoring)
- -
-Debugging Tools
+Other Tools and Platforms
  -
  - Postman(https://www.postman.com/)
  -
-Other
- - 
- - Chat Ops(https://github.com/DmitryShevkun/techinfo/tree/master/ChatOps)
+Other Topics
  -
- - Bash scr ?
- - Python scr?
- - Other Specific Scripting ?
+ - Monitoring(https://github.com/DmitryShevkun/techinfo/tree/master/Monitoring)
+ -
+ - PenTesting(https://github.com/DmitryShevkun/techinfo/tree/master/PenTesting)
+ -
+ - Chat Ops(https://github.com/DmitryShevkun/techinfo/tree/master/ChatOps)
  -
