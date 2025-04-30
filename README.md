@@ -54,7 +54,7 @@ Data Bases
  -
  - MicrosoftSQL(https://github.com/DmitryShevkun/techinfo/tree/master/MSsql)
  -
- - MongoDB(https://github.com/DmitryShevkun/techinfo/tree/master/Mongo)
+ - MongoDB(https://github.com/DmitryShevkun/techinfo/tree/master/MongoDB)
  -
  - Redis(https://github.com/DmitryShevkun/techinfo/tree/master/Redis)
  -
