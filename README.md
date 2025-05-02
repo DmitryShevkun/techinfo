@@ -86,5 +86,3 @@ Other Topics
  -
  - PenTesting(https://github.com/DmitryShevkun/techinfo/tree/master/PenTesting)
  -
- - Chat Ops(https://github.com/DmitryShevkun/techinfo/tree/master/ChatOps)
- -
