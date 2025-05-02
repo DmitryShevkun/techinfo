@@ -1,0 +1,15 @@
+# configure text editor for git
+git config --global core.editor
+# example for windows and VS Code
+git config --global core.editor "code --wait"
+# example for Mac OS and Atom
+git config --global core.editor "atom --wait"
+
+# check commits
+git cherry -v master
+git cherry -v master | wc -l
+# set nubmer of commits to squash
+# -i interactive with text editor
+git rebase -i HEAD~7
+# to rewrite repo, be careful
+git push --force
