@@ -2,6 +2,9 @@ Kubernetes
 -
 https://kubernetes.io/
 -
+cheatsheet
+https://kubernetes.io/ru/docs/reference/kubectl/cheatsheet/
+-
 local k8s - minikube
 https://kubernetes.io/docs/setup/minikube/ 
 -
