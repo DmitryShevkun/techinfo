@@ -13,9 +13,6 @@ https://www.digitalocean.com/community/tutorials/how-to-use-systemctl-to-manage-
 Understanding Systemd Units and Unit Files
 https://www.digitalocean.com/community/tutorials/understanding-systemd-units-and-unit-files
 -
-СКРИПТ
-chmod +x script.sh
--
 PATH variables
 echo $PATH
 https://stackoverflow.com/questions/14637979/how-to-permanently-set-path-on-linux-unix
