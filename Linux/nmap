@@ -1,0 +1,54 @@
+Network Scanning Utility
+-
+Docs
+https://nmap.org/man/ru/
+-
+-sn
+broadcast ARP to scan subnet
+-
+-sS
+Request : Client to Server: SYN 
+Response: Server to Client: SYN, ACK
+Request : Client to Server: RST instead of ACK
+-
+-sT
+Request : Client to Server: SYN 
+Response: Server to Client: SYN + ACK
+Request : Client to Server: ACK
+*Flag: Server to Client: RST, ACK( if port closed )
+-
+-sN
+Request : Client to Server: no flags!
+Response: Server to Client: RST, ACK
+if responded with *Server to Client: no flags! - srv or firewall exists
+-
+-sF
+Request : Client to Server: FIN
+Response: Server to Client: RST, ACK
+if responded with *Server to Client: no flags! - srv or firewall exists
+-
+-sX
+Request : Client to Server: FIN, PSH, URG
+Response: Server to Client: RST, ACK
+if responded with *Server to Client: no flags! - srv or firewall exists
+-
+-sV
+send requests to found port from a list of known requests,
+to find out the server type and verxion,
+example:
+GET / HTTP/1.0
+-
+-sC
+run default scrips, from nmap own script lib
+-
+-sA
+Request : Client to Server: ACK
+Response: Server to Client: RST( response from server)
+*if no responce - there is a firewall before a server
+-
+--reason
+add details for previous commands output
+-
+-O
+get operation system
+-
