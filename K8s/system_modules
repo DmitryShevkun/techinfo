@@ -1,24 +1,13 @@
 
 Master Node
-  apiserver
-  etcd
+
+  controller-manager
+  api server
   scheduler
-  kube-control-manager
-  cloud-control-manager
+  kubelet
+  etcd
 
 Worker Node
+
   kubelet
-  proxy(network)
-  Container Runtime
-
-Aux Modules
-  CoreDNS
-  CNI(Container Network Interface)
-  Ingress Controller
-  Metrics Server
-  Dashboard(cluster GUI control panel)
-
-Sec Modules
-  RBAC(Role Based Access Control)
-  Secrets(Vault)
-  ServiceAccount(Auth pods and services in cluster)
+  proxy
