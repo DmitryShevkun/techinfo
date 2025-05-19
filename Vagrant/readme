@@ -2,17 +2,12 @@ Vagrant
 -
 https://www.vagrantup.com/
 -
+Tutorials
+https://developer.hashicorp.com/vagrant/tutorials
+-
+Documentation
+https://developer.hashicorp.com/vagrant/docs
+-
 guide - https://github.com/leucos/ansible-tuto
 ru translate - https://habr.com/ru/post/305400/
--
-Короткая шпаргалка:
- - виртуальная ось указываеться в vagrantfile, например:
- machine.vm.box = "ubuntu/bionic64"
- -
- - запуск - vagrant up
- - подключение по ssh - vagrant ssh
- - состояние в.машин - vagrant status
- - слип - vagrant suspend 
- - полный стоп - vagrant halt
- - удаление в.машин - vagrant destroy
 -
