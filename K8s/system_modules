@@ -4,7 +4,7 @@ Master Node
   controller-manager
   api server
   scheduler
-  kubelet
+  kubelet ?
   etcd
 
 Worker Node
