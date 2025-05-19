@@ -1,0 +1,6 @@
+vagrant up      - запуск
+vagrant ssh     - подключение по ssh
+vagrant status  - состояние в.машин
+vagrant suspend - слип
+vagrant halt    - полный стоп
+vagrant destroy - удаление в.машин
