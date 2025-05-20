@@ -8,6 +8,9 @@ https://kubernetes.io/docs/home/
 cheatsheet
 https://kubernetes.io/ru/docs/reference/kubectl/cheatsheet/
 -
+List of all resources type with description
+https://kubernetes.io/docs/reference/kubernetes-api/
+-
 local k8s - minikube
 https://kubernetes.io/docs/setup/minikube/ 
 -
