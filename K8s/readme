@@ -2,14 +2,14 @@ Kubernetes
 -
 https://kubernetes.io/
 -
+CLI reference
+https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands
+-
 Documentation
 https://kubernetes.io/docs/home/
 -
 cheatsheet
 https://kubernetes.io/ru/docs/reference/kubectl/cheatsheet/
--
-CLI reference
-https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands
 -
 List of all resources types with description
 https://kubernetes.io/docs/reference/kubernetes-api/
