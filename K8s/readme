@@ -17,6 +17,9 @@ https://kubernetes.io/docs/reference/kubernetes-api/
 local k8s - minikube
 https://kubernetes.io/docs/setup/minikube/ 
 -
+Argo CD
+https://argo-cd.readthedocs.io/en/stable/
+-
 Other topics
 https://habr.com/ru/post/258443/
 https://habr.com/ru/company/piter/blog/433192/
