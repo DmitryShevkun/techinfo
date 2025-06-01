@@ -15,7 +15,7 @@ List of all resources types with description
 https://kubernetes.io/docs/reference/kubernetes-api/
 -
 local k8s - minikube
-https://kubernetes.io/docs/setup/minikube/ 
+https://minikube.sigs.k8s.io/docs/
 -
 Argo CD
 https://argo-cd.readthedocs.io/en/stable/
