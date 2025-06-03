@@ -3,6 +3,8 @@ Network Scanning Utility
 Docs
 https://nmap.org/man/ru/
 -
+it is highly recommended to run NMAP with SUDO
+-
 -sn
 broadcast ARP to scan subnet
 -
@@ -51,4 +53,23 @@ add details for previous commands output
 -
 -O
 get operation system
+-
+-Pn
+send TCP packets to scan subnetwork for active hosts( some hosts like Win not support other scannig methods with ICMP )
+-
+-p
+choose ports to scann
+exemple: -p22-80
+exemple: -p- to scan all 1-65535 (take a lot time)
+-
+-o
+write output to file
+exemple: -oX filename to write data in xml format
+-
+--script
+run some script from nmap own script lib
+exemple: --script=vuln
+-
+--source-port
+scan HOST from concrete port
 -
