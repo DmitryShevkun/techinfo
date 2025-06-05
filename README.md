@@ -8,8 +8,6 @@ Containerisation & Virtualization
  -
  - K8s(https://github.com/DmitryShevkun/techinfo/tree/master/K8s)
  -
- - Terraform(https://github.com/DmitryShevkun/techinfo/tree/master/Terraform)
- -
  - Helm(https://github.com/DmitryShevkun/techinfo/tree/master/Helm)
  -
 Virtualization
@@ -18,7 +16,9 @@ Virtualization
  -
  - VMware(https://github.com/DmitryShevkun/techinfo/tree/master/VMware)
  -
-Configuration
+IaC & Configuration
+ -
+ - Terraform(https://github.com/DmitryShevkun/techinfo/tree/master/Terraform)
  -
  - Ansible(https://github.com/DmitryShevkun/techinfo/tree/master/Ansible)
  -
