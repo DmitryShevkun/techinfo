@@ -28,7 +28,7 @@ Configuration
  -
  - SaltStack(https://github.com/saltstack/salt)
  -
-CI/CD
+Automation
  -
  - Jenkins(https://github.com/DmitryShevkun/techinfo/tree/master/Jenkins)
  -
