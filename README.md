@@ -34,10 +34,6 @@ Automation
  -
  - Teamcity(https://github.com/DmitryShevkun/techinfo/tree/master/Teamcity)
  -
- - Grunt(https://github.com/DmitryShevkun/techinfo/tree/master/Grunt)
- -
- - Travis-CI(https://github.com/DmitryShevkun/techinfo/tree/master/Travis-CI)
- -
  - Gitlab(https://github.com/DmitryShevkun/techinfo/tree/master/Gitlab)
  -
 Data Bases
