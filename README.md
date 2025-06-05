@@ -1,16 +1,24 @@
 <a href=https://github.com/DmitryShevkun/techinfo target="_blank"><img src="https://github.com/DmitryShevkun/techinfo/blob/master/qr.jpg" width="150" height="150" border="0" title="QR код"></a>
 -
-Оrchestrators
+Containerisation & Virtualization
+ -
+ - Docker(https://github.com/DmitryShevkun/techinfo/tree/master/Docker)
+ -
+ - Packer(https://github.com/DmitryShevkun/techinfo/tree/master/Packer)
+ -
+Оrchestration
  -
  - K8s(https://github.com/DmitryShevkun/techinfo/tree/master/K8s)
  -
  - Terraform(https://github.com/DmitryShevkun/techinfo/tree/master/Terraform)
  -
- - Vagrant(https://github.com/DmitryShevkun/techinfo/tree/master/Vagrant)
- -
  - Helm(https://github.com/DmitryShevkun/techinfo/tree/master/Helm)
  -
-Configurators
+Virtualization
+ -
+ - Vagrant(https://github.com/DmitryShevkun/techinfo/tree/master/Vagrant)
+ -
+Configuration
  -
  - Ansible(https://github.com/DmitryShevkun/techinfo/tree/master/Ansible)
  -
@@ -31,12 +39,6 @@ CI/CD
  - Travis-CI(https://github.com/DmitryShevkun/techinfo/tree/master/Travis-CI)
  -
  - Gitlab(https://github.com/DmitryShevkun/techinfo/tree/master/Gitlab)
- -
-Containerisation & Virtualization
- -
- - Docker(https://github.com/DmitryShevkun/techinfo/tree/master/Docker)
- -
- - Packer(https://github.com/DmitryShevkun/techinfo/tree/master/Packer)
  -
 Data Bases
  -
