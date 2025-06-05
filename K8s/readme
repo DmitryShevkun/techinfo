@@ -14,8 +14,11 @@ https://kubernetes.io/ru/docs/reference/kubectl/cheatsheet/
 List of all resources types with description
 https://kubernetes.io/docs/reference/kubernetes-api/
 -
-local k8s - minikube
+Minikube
 https://minikube.sigs.k8s.io/docs/
+-
+Terraform to Minikube
+https://medium.com/rahasak/terraform-kubernetes-integration-with-minikube-334c43151931
 -
 Argo CD
 https://argo-cd.readthedocs.io/en/stable/
