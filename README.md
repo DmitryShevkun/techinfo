@@ -16,6 +16,8 @@ Virtualization
  -
  - Vagrant(https://github.com/DmitryShevkun/techinfo/tree/master/Vagrant)
  -
+ - VMware(https://github.com/DmitryShevkun/techinfo/tree/master/VMware)
+ -
 Configuration
  -
  - Ansible(https://github.com/DmitryShevkun/techinfo/tree/master/Ansible)
